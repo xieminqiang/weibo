@@ -1,8 +1,11 @@
 //
-//  Prefix header
+//  webo-Prefix.pch
+//  weibo
 //
-//  The contents of this file are implicitly included at the beginning of every source file.
+//  Created by 谢明强 on 16/5/13.
+//  Copyright © 2016年 MQ. All rights reserved.
 //
+
 
 #import <Availability.h>
 
