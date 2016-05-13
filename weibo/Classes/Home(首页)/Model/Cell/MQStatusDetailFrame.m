@@ -7,13 +7,13 @@
 //
 
 #import "MQStatusDetailFrame.h"
-#import "HMStatus.h"
+#import "MQStatus.h"
 #import "MQStatusOriginalFrame.h"
 #import "MQStatusRetweetedFrame.h"
 
 @implementation MQStatusDetailFrame
 
-- (void)setStatus:(HMStatus *)status
+- (void)setStatus:(MQStatus *)status
 {
     _status = status;
     

@@ -1,9 +1,9 @@
 //
-//  HMComposeViewController.m
-//  黑马微博
+//  MQComposeViewController.m
+//  weibo
 //
-//  Created by apple on 14-7-7.
-//  Copyright (c) 2014年 heima. All rights reserved.
+//  Created by 谢明强 on 16/4/13.
+//  Copyright © 2016年 MQ. All rights reserved.
 //
 
 #import "MQComposeViewController.h"
@@ -13,7 +13,7 @@
 #import "MQAccountTool.h"
 #import "MQAccount.h"
 #import "MBProgressHUD+MJ.h"
-#import "HMStatusTool.h"
+#import "MQStatusTool.h"
 #import "MQEmotion.h"
 #import "HMEmotionKeyboard.h"
 
@@ -205,11 +205,11 @@
 - (void)sendStatusWithoutImage
 {
     // 1.封装请求参数
-    HMSendStatusParam *param = [HMSendStatusParam param];
+    MQSendStatusParam *param = [MQSendStatusParam param];
     param.status = self.textView.text;
     
     // 2.发微博
-    [HMStatusTool sendStatusWithParam:param success:^(HMSendStatusResult *result) {
+    [MQStatusTool sendStatusWithParam:param success:^(MQSendStatusResult *result) {
         [MBProgressHUD showSuccess:@"发表成功"];
     } failure:^(NSError *error) {
         [MBProgressHUD showError:@"发表失败"];

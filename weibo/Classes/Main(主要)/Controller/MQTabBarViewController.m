@@ -8,13 +8,13 @@
 
 #import "MQTabBarViewController.h"
 #import "MQHomeViewController.h"
-#import "HMMessageViewController.h"
+#import "MQMessageViewController.h"
 #import "HMDiscoverViewController.h"
-#import "HMProfileViewController.h"
-#import "HMNavigationController.h"
-#import "HMTabBar.h"
+#import "MQProfileViewController.h"
+#import "MQNavigationController.h"
+#import "MQTabBar.h"
 #import "MQComposeViewController.h"
-#import "HMUserTool.h"
+#import "MQUserTool.h"
 #import "MQAccount.h"
 #import "MQAccountTool.h"
 #import "JTNavigationController.h"
@@ -23,8 +23,8 @@
 
 @interface MQTabBarViewController () <HMTabBarDelegate, UITabBarControllerDelegate>
 @property (nonatomic, weak) MQHomeViewController *home;
-@property (nonatomic, weak) HMMessageViewController *message;
-@property (nonatomic, weak) HMProfileViewController *profile;
+@property (nonatomic, weak) MQMessageViewController *message;
+@property (nonatomic, weak) MQProfileViewController *profile;
 @property (nonatomic, weak) UIViewController *lastSelectedViewContoller;
 @end
 
@@ -63,11 +63,11 @@
 - (void)getUnreadCount
 {
     // 1.请求参数
-    HMUnreadCountParam *param = [HMUnreadCountParam param];
+    MQUnreadCountParam *param = [MQUnreadCountParam param];
     param.uid = [MQAccountTool account].uid;
     
     // 2.获得未读数
-    [HMUserTool unreadCountWithParam:param success:^(HMUnreadCountResult *result) {
+    [MQUserTool unreadCountWithParam:param success:^(MQUnreadCountResult *result) {
         // 显示微博未读数
         if (result.status == 0) {
             self.home.tabBarItem.badgeValue = nil;
@@ -103,7 +103,7 @@
 - (void)addCustomTabBar
 {
     // 创建自定义tabbar
-    HMTabBar *customTabBar = [[HMTabBar alloc] init];
+    MQTabBar *customTabBar = [[MQTabBar alloc] init];
     customTabBar.tabBarDelegate = self;
     // 更换系统自带的tabbar
     [self setValue:customTabBar forKeyPath:@"tabBar"];
@@ -120,7 +120,7 @@
     self.home = home;
     self.lastSelectedViewContoller = home;
 
-    HMMessageViewController *message = [[HMMessageViewController alloc] init];
+    MQMessageViewController *message = [[MQMessageViewController alloc] init];
     [self addOneChlildVc:message title:@"消息" imageName:@"tabbar_message_center" selectedImageName:@"tabbar_message_center_selected"];
    self.message = message;
 
@@ -128,7 +128,7 @@
     HMDiscoverViewController *discover = [[HMDiscoverViewController alloc] init];
     [self addOneChlildVc:discover title:@"发现" imageName:@"tabbar_discover" selectedImageName:@"tabbar_discover_selected"];
     
-    HMProfileViewController *profile = [[HMProfileViewController alloc] init];
+    MQProfileViewController *profile = [[MQProfileViewController alloc] init];
     [self addOneChlildVc:profile title:@"我" imageName:@"tabbar_profile" selectedImageName:@"tabbar_profile_selected"];
     self.profile = profile;
 
@@ -171,16 +171,16 @@
     childVc.tabBarItem.selectedImage = selectedImage;
     
     // 添加为tabbar控制器的子控制器
-    HMNavigationController *nav = [[HMNavigationController alloc] initWithRootViewController:childVc];
+    MQNavigationController *nav = [[MQNavigationController alloc] initWithRootViewController:childVc];
     [self addChildViewController:nav];
 }
 
 #pragma mark - HMTabBarDelegate
-- (void)tabBarDidClickedPlusButton:(HMTabBar *)tabBar
+- (void)tabBarDidClickedPlusButton:(MQTabBar *)tabBar
 {
     // 弹出发微博控制器
     MQComposeViewController *compose = [[MQComposeViewController alloc] init];
-    HMNavigationController *nav = [[HMNavigationController alloc] initWithRootViewController:compose];
+    MQNavigationController *nav = [[MQNavigationController alloc] initWithRootViewController:compose];
     [self presentViewController:nav animated:YES completion:nil];
 }
 @end

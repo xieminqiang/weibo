@@ -7,13 +7,13 @@
 //
 
 #import "MQStatusOriginalFrame.h"
-#import "HMStatus.h"
-#import "HMUser.h"
-#import "HMStatusPhotosView.h"
+#import "MQStatus.h"
+#import "MQUser.h"
+#import "MQStatusPhotosView.h"
 
 @implementation MQStatusOriginalFrame
 
-- (void)setStatus:(HMStatus *)status
+- (void)setStatus:(MQStatus *)status
 {
     _status = status;
     
@@ -51,7 +51,7 @@
     if (status.pic_urls.count) {
         CGFloat photosX = textX;
         CGFloat photosY = CGRectGetMaxY(self.textFrame) + HMStatusCellInset;
-        CGSize photosSize = [HMStatusPhotosView sizeWithPhotosCount:status.pic_urls.count];
+        CGSize photosSize = [MQStatusPhotosView sizeWithPhotosCount:status.pic_urls.count];
         self.photosFrame = (CGRect){{photosX, photosY}, photosSize};
         
         h = CGRectGetMaxY(self.photosFrame) + HMStatusCellInset;

@@ -41,19 +41,19 @@
 		A4BB3DE61CE5730300C2C07A /* MQStatusOriginalFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3CF11CE5730200C2C07A /* MQStatusOriginalFrame.m */; };
 		A4BB3DE71CE5730300C2C07A /* MQStatusRetweetedFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3CF31CE5730200C2C07A /* MQStatusRetweetedFrame.m */; };
 		A4BB3DE81CE5730300C2C07A /* MQPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3CF51CE5730200C2C07A /* MQPhoto.m */; };
-		A4BB3DE91CE5730300C2C07A /* HMStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3CF71CE5730200C2C07A /* HMStatus.m */; };
-		A4BB3DEA1CE5730300C2C07A /* HMUser.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3CF91CE5730200C2C07A /* HMUser.m */; };
-		A4BB3DEB1CE5730300C2C07A /* HMStatusCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3CFD1CE5730200C2C07A /* HMStatusCell.m */; };
-		A4BB3DEC1CE5730300C2C07A /* HMStatusDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3CFF1CE5730200C2C07A /* HMStatusDetailView.m */; };
-		A4BB3DED1CE5730300C2C07A /* HMStatusOriginalView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3D011CE5730200C2C07A /* HMStatusOriginalView.m */; };
-		A4BB3DEE1CE5730300C2C07A /* HMStatusPhotosView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3D031CE5730200C2C07A /* HMStatusPhotosView.m */; };
-		A4BB3DEF1CE5730300C2C07A /* HMStatusPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3D051CE5730200C2C07A /* HMStatusPhotoView.m */; };
-		A4BB3DF01CE5730300C2C07A /* HMStatusRetweetedView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3D071CE5730200C2C07A /* HMStatusRetweetedView.m */; };
-		A4BB3DF11CE5730300C2C07A /* HMStatusToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3D091CE5730200C2C07A /* HMStatusToolbar.m */; };
-		A4BB3DF21CE5730300C2C07A /* HMLoadMoreFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3D0B1CE5730200C2C07A /* HMLoadMoreFooter.m */; };
-		A4BB3DF31CE5730300C2C07A /* HMLoadMoreFooter.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4BB3D0C1CE5730200C2C07A /* HMLoadMoreFooter.xib */; };
-		A4BB3DF41CE5730300C2C07A /* HMPopMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3D0E1CE5730200C2C07A /* HMPopMenu.m */; };
-		A4BB3DF51CE5730300C2C07A /* HMTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3D101CE5730200C2C07A /* HMTitleButton.m */; };
+		A4BB3DE91CE5730300C2C07A /* MQStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3CF71CE5730200C2C07A /* MQStatus.m */; };
+		A4BB3DEA1CE5730300C2C07A /* MQUser.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3CF91CE5730200C2C07A /* MQUser.m */; };
+		A4BB3DEB1CE5730300C2C07A /* MQStatusCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3CFD1CE5730200C2C07A /* MQStatusCell.m */; };
+		A4BB3DEC1CE5730300C2C07A /* MQStatusDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3CFF1CE5730200C2C07A /* MQStatusDetailView.m */; };
+		A4BB3DED1CE5730300C2C07A /* MQStatusOriginalView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3D011CE5730200C2C07A /* MQStatusOriginalView.m */; };
+		A4BB3DEE1CE5730300C2C07A /* MQStatusPhotosView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3D031CE5730200C2C07A /* MQStatusPhotosView.m */; };
+		A4BB3DEF1CE5730300C2C07A /* MQStatusPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3D051CE5730200C2C07A /* MQStatusPhotoView.m */; };
+		A4BB3DF01CE5730300C2C07A /* MQStatusRetweetedView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3D071CE5730200C2C07A /* MQStatusRetweetedView.m */; };
+		A4BB3DF11CE5730300C2C07A /* MQStatusToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3D091CE5730200C2C07A /* MQStatusToolbar.m */; };
+		A4BB3DF21CE5730300C2C07A /* MQLoadMoreFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3D0B1CE5730200C2C07A /* MQLoadMoreFooter.m */; };
+		A4BB3DF31CE5730300C2C07A /* MQLoadMoreFooter.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4BB3D0C1CE5730200C2C07A /* MQLoadMoreFooter.xib */; };
+		A4BB3DF41CE5730300C2C07A /* MQPopMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3D0E1CE5730200C2C07A /* MQPopMenu.m */; };
+		A4BB3DF51CE5730300C2C07A /* MQTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3D101CE5730200C2C07A /* MQTitleButton.m */; };
 		A4BB3DF61CE5730300C2C07A /* JTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3D121CE5730200C2C07A /* JTViewController.m */; };
 		A4BB3DF71CE5730300C2C07A /* JTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4BB3D131CE5730200C2C07A /* JTViewController.xib */; };
 		A4BB3DF81CE5730300C2C07A /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3D161CE5730200C2C07A /* Foundation+Log.m */; };
@@ -62,7 +62,7 @@
 		A4BB3DFB1CE5730300C2C07A /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3D1C1CE5730200C2C07A /* UIBarButtonItem+Extension.m */; };
 		A4BB3DFC1CE5730300C2C07A /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3D1E1CE5730200C2C07A /* UIImage+Extension.m */; };
 		A4BB3DFD1CE5730300C2C07A /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3D201CE5730200C2C07A /* UIView+Extension.m */; };
-		A4BB3DFE1CE5730300C2C07A /* HMNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3D231CE5730200C2C07A /* HMNavigationController.m */; };
+		A4BB3DFE1CE5730300C2C07A /* MQNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3D231CE5730200C2C07A /* MQNavigationController.m */; };
 		A4BB3DFF1CE5730300C2C07A /* MQTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3D251CE5730200C2C07A /* MQTabBarViewController.m */; };
 		A4BB3E001CE5730300C2C07A /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3D291CE5730200C2C07A /* AFHTTPRequestOperation.m */; };
 		A4BB3E011CE5730300C2C07A /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3D2B1CE5730200C2C07A /* AFHTTPRequestOperationManager.m */; };
@@ -111,26 +111,26 @@
 		A4BB3E2C1CE5730300C2C07A /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3D861CE5730300C2C07A /* UIView+WebCacheOperation.m */; };
 		A4BB3E2D1CE5730300C2C07A /* MQAccessTokenParam.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3D8A1CE5730300C2C07A /* MQAccessTokenParam.m */; };
 		A4BB3E2E1CE5730300C2C07A /* MQAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3D8C1CE5730300C2C07A /* MQAccount.m */; };
-		A4BB3E2F1CE5730300C2C07A /* HMBaseParam.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3D8E1CE5730300C2C07A /* HMBaseParam.m */; };
-		A4BB3E301CE5730300C2C07A /* HMHomeStatusesParam.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3D911CE5730300C2C07A /* HMHomeStatusesParam.m */; };
-		A4BB3E311CE5730300C2C07A /* HMHomeStatusesResult.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3D931CE5730300C2C07A /* HMHomeStatusesResult.m */; };
-		A4BB3E321CE5730300C2C07A /* HMSendStatusParam.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3D961CE5730300C2C07A /* HMSendStatusParam.m */; };
-		A4BB3E331CE5730300C2C07A /* HMSendStatusResult.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3D981CE5730300C2C07A /* HMSendStatusResult.m */; };
-		A4BB3E341CE5730300C2C07A /* HMUnreadCountParam.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3D9B1CE5730300C2C07A /* HMUnreadCountParam.m */; };
-		A4BB3E351CE5730300C2C07A /* HMUnreadCountResult.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3D9D1CE5730300C2C07A /* HMUnreadCountResult.m */; };
-		A4BB3E361CE5730300C2C07A /* HMUserInfoParam.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3DA01CE5730300C2C07A /* HMUserInfoParam.m */; };
-		A4BB3E371CE5730300C2C07A /* HMUserInfoResult.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3DA21CE5730300C2C07A /* HMUserInfoResult.m */; };
-		A4BB3E3A1CE5730300C2C07A /* HMStatusTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3DA91CE5730300C2C07A /* HMStatusTool.m */; };
-		A4BB3E3B1CE5730300C2C07A /* HMUserTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3DAB1CE5730300C2C07A /* HMUserTool.m */; };
+		A4BB3E2F1CE5730300C2C07A /* MQBaseParam.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3D8E1CE5730300C2C07A /* MQBaseParam.m */; };
+		A4BB3E301CE5730300C2C07A /* MQHomeStatusesParam.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3D911CE5730300C2C07A /* MQHomeStatusesParam.m */; };
+		A4BB3E311CE5730300C2C07A /* MQHomeStatusesResult.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3D931CE5730300C2C07A /* MQHomeStatusesResult.m */; };
+		A4BB3E321CE5730300C2C07A /* MQSendStatusParam.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3D961CE5730300C2C07A /* MQSendStatusParam.m */; };
+		A4BB3E331CE5730300C2C07A /* MQSendStatusResult.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3D981CE5730300C2C07A /* MQSendStatusResult.m */; };
+		A4BB3E341CE5730300C2C07A /* MQUnreadCountParam.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3D9B1CE5730300C2C07A /* MQUnreadCountParam.m */; };
+		A4BB3E351CE5730300C2C07A /* MQUnreadCountResult.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3D9D1CE5730300C2C07A /* MQUnreadCountResult.m */; };
+		A4BB3E361CE5730300C2C07A /* MQUserInfoParam.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3DA01CE5730300C2C07A /* MQUserInfoParam.m */; };
+		A4BB3E371CE5730300C2C07A /* MQUserInfoResult.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3DA21CE5730300C2C07A /* MQUserInfoResult.m */; };
+		A4BB3E3A1CE5730300C2C07A /* MQStatusTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3DA91CE5730300C2C07A /* MQStatusTool.m */; };
+		A4BB3E3B1CE5730300C2C07A /* MQUserTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3DAB1CE5730300C2C07A /* MQUserTool.m */; };
 		A4BB3E3C1CE5730300C2C07A /* MQAccountTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3DAD1CE5730300C2C07A /* MQAccountTool.m */; };
 		A4BB3E3D1CE5730300C2C07A /* MQBaseTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3DAF1CE5730300C2C07A /* MQBaseTool.m */; };
 		A4BB3E3E1CE5730300C2C07A /* MQControllerTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3DB11CE5730300C2C07A /* MQControllerTool.m */; };
 		A4BB3E3F1CE5730300C2C07A /* MQHttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3DB31CE5730300C2C07A /* MQHttpTool.m */; };
-		A4BB3E401CE5730300C2C07A /* HMTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3DB61CE5730300C2C07A /* HMTabBar.m */; };
-		A4BB3E411CE5730300C2C07A /* HMMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3DBA1CE5730300C2C07A /* HMMessageViewController.m */; };
+		A4BB3E401CE5730300C2C07A /* MQTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3DB61CE5730300C2C07A /* MQTabBar.m */; };
+		A4BB3E411CE5730300C2C07A /* MQMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3DBA1CE5730300C2C07A /* MQMessageViewController.m */; };
 		A4BB3E421CE5730300C2C07A /* MQNewfeatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3DC01CE5730300C2C07A /* MQNewfeatureViewController.m */; };
 		A4BB3E431CE5730300C2C07A /* MQOAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3DC41CE5730300C2C07A /* MQOAuthViewController.m */; };
-		A4BB3E441CE5730300C2C07A /* HMProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3DC81CE5730300C2C07A /* HMProfileViewController.m */; };
+		A4BB3E441CE5730300C2C07A /* MQProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3DC81CE5730300C2C07A /* MQProfileViewController.m */; };
 		A4BB3E451CE5730300C2C07A /* window.xml in Resources */ = {isa = PBXBuildFile; fileRef = A4BB3DCB1CE5730300C2C07A /* window.xml */; };
 		A4BB3E481CE5731E00C2C07A /* backImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4BB3E461CE5731E00C2C07A /* backImage@2x.png */; };
 		A4BB3E491CE5731E00C2C07A /* backImage@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4BB3E471CE5731E00C2C07A /* backImage@3x.png */; };
@@ -222,31 +222,31 @@
 		A4BB3CF31CE5730200C2C07A /* MQStatusRetweetedFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQStatusRetweetedFrame.m; sourceTree = "<group>"; };
 		A4BB3CF41CE5730200C2C07A /* MQPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQPhoto.h; sourceTree = "<group>"; };
 		A4BB3CF51CE5730200C2C07A /* MQPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQPhoto.m; sourceTree = "<group>"; };
-		A4BB3CF61CE5730200C2C07A /* HMStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMStatus.h; sourceTree = "<group>"; };
-		A4BB3CF71CE5730200C2C07A /* HMStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMStatus.m; sourceTree = "<group>"; };
-		A4BB3CF81CE5730200C2C07A /* HMUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMUser.h; sourceTree = "<group>"; };
-		A4BB3CF91CE5730200C2C07A /* HMUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMUser.m; sourceTree = "<group>"; };
-		A4BB3CFC1CE5730200C2C07A /* HMStatusCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMStatusCell.h; sourceTree = "<group>"; };
-		A4BB3CFD1CE5730200C2C07A /* HMStatusCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMStatusCell.m; sourceTree = "<group>"; };
-		A4BB3CFE1CE5730200C2C07A /* HMStatusDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMStatusDetailView.h; sourceTree = "<group>"; };
-		A4BB3CFF1CE5730200C2C07A /* HMStatusDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMStatusDetailView.m; sourceTree = "<group>"; };
-		A4BB3D001CE5730200C2C07A /* HMStatusOriginalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMStatusOriginalView.h; sourceTree = "<group>"; };
-		A4BB3D011CE5730200C2C07A /* HMStatusOriginalView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMStatusOriginalView.m; sourceTree = "<group>"; };
-		A4BB3D021CE5730200C2C07A /* HMStatusPhotosView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMStatusPhotosView.h; sourceTree = "<group>"; };
-		A4BB3D031CE5730200C2C07A /* HMStatusPhotosView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMStatusPhotosView.m; sourceTree = "<group>"; };
-		A4BB3D041CE5730200C2C07A /* HMStatusPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMStatusPhotoView.h; sourceTree = "<group>"; };
-		A4BB3D051CE5730200C2C07A /* HMStatusPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMStatusPhotoView.m; sourceTree = "<group>"; };
-		A4BB3D061CE5730200C2C07A /* HMStatusRetweetedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMStatusRetweetedView.h; sourceTree = "<group>"; };
-		A4BB3D071CE5730200C2C07A /* HMStatusRetweetedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMStatusRetweetedView.m; sourceTree = "<group>"; };
-		A4BB3D081CE5730200C2C07A /* HMStatusToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMStatusToolbar.h; sourceTree = "<group>"; };
-		A4BB3D091CE5730200C2C07A /* HMStatusToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMStatusToolbar.m; sourceTree = "<group>"; };
-		A4BB3D0A1CE5730200C2C07A /* HMLoadMoreFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMLoadMoreFooter.h; sourceTree = "<group>"; };
-		A4BB3D0B1CE5730200C2C07A /* HMLoadMoreFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMLoadMoreFooter.m; sourceTree = "<group>"; };
-		A4BB3D0C1CE5730200C2C07A /* HMLoadMoreFooter.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HMLoadMoreFooter.xib; sourceTree = "<group>"; };
-		A4BB3D0D1CE5730200C2C07A /* HMPopMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMPopMenu.h; sourceTree = "<group>"; };
-		A4BB3D0E1CE5730200C2C07A /* HMPopMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMPopMenu.m; sourceTree = "<group>"; };
-		A4BB3D0F1CE5730200C2C07A /* HMTitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMTitleButton.h; sourceTree = "<group>"; };
-		A4BB3D101CE5730200C2C07A /* HMTitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMTitleButton.m; sourceTree = "<group>"; };
+		A4BB3CF61CE5730200C2C07A /* MQStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQStatus.h; sourceTree = "<group>"; };
+		A4BB3CF71CE5730200C2C07A /* MQStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQStatus.m; sourceTree = "<group>"; };
+		A4BB3CF81CE5730200C2C07A /* MQUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQUser.h; sourceTree = "<group>"; };
+		A4BB3CF91CE5730200C2C07A /* MQUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQUser.m; sourceTree = "<group>"; };
+		A4BB3CFC1CE5730200C2C07A /* MQStatusCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQStatusCell.h; sourceTree = "<group>"; };
+		A4BB3CFD1CE5730200C2C07A /* MQStatusCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQStatusCell.m; sourceTree = "<group>"; };
+		A4BB3CFE1CE5730200C2C07A /* MQStatusDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQStatusDetailView.h; sourceTree = "<group>"; };
+		A4BB3CFF1CE5730200C2C07A /* MQStatusDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQStatusDetailView.m; sourceTree = "<group>"; };
+		A4BB3D001CE5730200C2C07A /* MQStatusOriginalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQStatusOriginalView.h; sourceTree = "<group>"; };
+		A4BB3D011CE5730200C2C07A /* MQStatusOriginalView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQStatusOriginalView.m; sourceTree = "<group>"; };
+		A4BB3D021CE5730200C2C07A /* MQStatusPhotosView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQStatusPhotosView.h; sourceTree = "<group>"; };
+		A4BB3D031CE5730200C2C07A /* MQStatusPhotosView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQStatusPhotosView.m; sourceTree = "<group>"; };
+		A4BB3D041CE5730200C2C07A /* MQStatusPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQStatusPhotoView.h; sourceTree = "<group>"; };
+		A4BB3D051CE5730200C2C07A /* MQStatusPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQStatusPhotoView.m; sourceTree = "<group>"; };
+		A4BB3D061CE5730200C2C07A /* MQStatusRetweetedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQStatusRetweetedView.h; sourceTree = "<group>"; };
+		A4BB3D071CE5730200C2C07A /* MQStatusRetweetedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQStatusRetweetedView.m; sourceTree = "<group>"; };
+		A4BB3D081CE5730200C2C07A /* MQStatusToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQStatusToolbar.h; sourceTree = "<group>"; };
+		A4BB3D091CE5730200C2C07A /* MQStatusToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQStatusToolbar.m; sourceTree = "<group>"; };
+		A4BB3D0A1CE5730200C2C07A /* MQLoadMoreFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQLoadMoreFooter.h; sourceTree = "<group>"; };
+		A4BB3D0B1CE5730200C2C07A /* MQLoadMoreFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQLoadMoreFooter.m; sourceTree = "<group>"; };
+		A4BB3D0C1CE5730200C2C07A /* MQLoadMoreFooter.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MQLoadMoreFooter.xib; sourceTree = "<group>"; };
+		A4BB3D0D1CE5730200C2C07A /* MQPopMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQPopMenu.h; sourceTree = "<group>"; };
+		A4BB3D0E1CE5730200C2C07A /* MQPopMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQPopMenu.m; sourceTree = "<group>"; };
+		A4BB3D0F1CE5730200C2C07A /* MQTitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQTitleButton.h; sourceTree = "<group>"; };
+		A4BB3D101CE5730200C2C07A /* MQTitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQTitleButton.m; sourceTree = "<group>"; };
 		A4BB3D111CE5730200C2C07A /* JTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTViewController.h; sourceTree = "<group>"; };
 		A4BB3D121CE5730200C2C07A /* JTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTViewController.m; sourceTree = "<group>"; };
 		A4BB3D131CE5730200C2C07A /* JTViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JTViewController.xib; sourceTree = "<group>"; };
@@ -261,8 +261,8 @@
 		A4BB3D1E1CE5730200C2C07A /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
 		A4BB3D1F1CE5730200C2C07A /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
 		A4BB3D201CE5730200C2C07A /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
-		A4BB3D221CE5730200C2C07A /* HMNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMNavigationController.h; sourceTree = "<group>"; };
-		A4BB3D231CE5730200C2C07A /* HMNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMNavigationController.m; sourceTree = "<group>"; };
+		A4BB3D221CE5730200C2C07A /* MQNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQNavigationController.h; sourceTree = "<group>"; };
+		A4BB3D231CE5730200C2C07A /* MQNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQNavigationController.m; sourceTree = "<group>"; };
 		A4BB3D241CE5730200C2C07A /* MQTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQTabBarViewController.h; sourceTree = "<group>"; };
 		A4BB3D251CE5730200C2C07A /* MQTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQTabBarViewController.m; sourceTree = "<group>"; };
 		A4BB3D281CE5730200C2C07A /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
@@ -360,28 +360,28 @@
 		A4BB3D8A1CE5730300C2C07A /* MQAccessTokenParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQAccessTokenParam.m; sourceTree = "<group>"; };
 		A4BB3D8B1CE5730300C2C07A /* MQAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQAccount.h; sourceTree = "<group>"; };
 		A4BB3D8C1CE5730300C2C07A /* MQAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQAccount.m; sourceTree = "<group>"; };
-		A4BB3D8D1CE5730300C2C07A /* HMBaseParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMBaseParam.h; sourceTree = "<group>"; };
-		A4BB3D8E1CE5730300C2C07A /* HMBaseParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMBaseParam.m; sourceTree = "<group>"; };
-		A4BB3D901CE5730300C2C07A /* HMHomeStatusesParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMHomeStatusesParam.h; sourceTree = "<group>"; };
-		A4BB3D911CE5730300C2C07A /* HMHomeStatusesParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMHomeStatusesParam.m; sourceTree = "<group>"; };
-		A4BB3D921CE5730300C2C07A /* HMHomeStatusesResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMHomeStatusesResult.h; sourceTree = "<group>"; };
-		A4BB3D931CE5730300C2C07A /* HMHomeStatusesResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMHomeStatusesResult.m; sourceTree = "<group>"; };
-		A4BB3D951CE5730300C2C07A /* HMSendStatusParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMSendStatusParam.h; sourceTree = "<group>"; };
-		A4BB3D961CE5730300C2C07A /* HMSendStatusParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMSendStatusParam.m; sourceTree = "<group>"; };
-		A4BB3D971CE5730300C2C07A /* HMSendStatusResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMSendStatusResult.h; sourceTree = "<group>"; };
-		A4BB3D981CE5730300C2C07A /* HMSendStatusResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMSendStatusResult.m; sourceTree = "<group>"; };
-		A4BB3D9A1CE5730300C2C07A /* HMUnreadCountParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMUnreadCountParam.h; sourceTree = "<group>"; };
-		A4BB3D9B1CE5730300C2C07A /* HMUnreadCountParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMUnreadCountParam.m; sourceTree = "<group>"; };
-		A4BB3D9C1CE5730300C2C07A /* HMUnreadCountResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMUnreadCountResult.h; sourceTree = "<group>"; };
-		A4BB3D9D1CE5730300C2C07A /* HMUnreadCountResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMUnreadCountResult.m; sourceTree = "<group>"; };
-		A4BB3D9F1CE5730300C2C07A /* HMUserInfoParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMUserInfoParam.h; sourceTree = "<group>"; };
-		A4BB3DA01CE5730300C2C07A /* HMUserInfoParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMUserInfoParam.m; sourceTree = "<group>"; };
-		A4BB3DA11CE5730300C2C07A /* HMUserInfoResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMUserInfoResult.h; sourceTree = "<group>"; };
-		A4BB3DA21CE5730300C2C07A /* HMUserInfoResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMUserInfoResult.m; sourceTree = "<group>"; };
-		A4BB3DA81CE5730300C2C07A /* HMStatusTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMStatusTool.h; sourceTree = "<group>"; };
-		A4BB3DA91CE5730300C2C07A /* HMStatusTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMStatusTool.m; sourceTree = "<group>"; };
-		A4BB3DAA1CE5730300C2C07A /* HMUserTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMUserTool.h; sourceTree = "<group>"; };
-		A4BB3DAB1CE5730300C2C07A /* HMUserTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMUserTool.m; sourceTree = "<group>"; };
+		A4BB3D8D1CE5730300C2C07A /* MQBaseParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQBaseParam.h; sourceTree = "<group>"; };
+		A4BB3D8E1CE5730300C2C07A /* MQBaseParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQBaseParam.m; sourceTree = "<group>"; };
+		A4BB3D901CE5730300C2C07A /* MQHomeStatusesParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQHomeStatusesParam.h; sourceTree = "<group>"; };
+		A4BB3D911CE5730300C2C07A /* MQHomeStatusesParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQHomeStatusesParam.m; sourceTree = "<group>"; };
+		A4BB3D921CE5730300C2C07A /* MQHomeStatusesResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQHomeStatusesResult.h; sourceTree = "<group>"; };
+		A4BB3D931CE5730300C2C07A /* MQHomeStatusesResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQHomeStatusesResult.m; sourceTree = "<group>"; };
+		A4BB3D951CE5730300C2C07A /* MQSendStatusParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQSendStatusParam.h; sourceTree = "<group>"; };
+		A4BB3D961CE5730300C2C07A /* MQSendStatusParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQSendStatusParam.m; sourceTree = "<group>"; };
+		A4BB3D971CE5730300C2C07A /* MQSendStatusResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQSendStatusResult.h; sourceTree = "<group>"; };
+		A4BB3D981CE5730300C2C07A /* MQSendStatusResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQSendStatusResult.m; sourceTree = "<group>"; };
+		A4BB3D9A1CE5730300C2C07A /* MQUnreadCountParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQUnreadCountParam.h; sourceTree = "<group>"; };
+		A4BB3D9B1CE5730300C2C07A /* MQUnreadCountParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQUnreadCountParam.m; sourceTree = "<group>"; };
+		A4BB3D9C1CE5730300C2C07A /* MQUnreadCountResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQUnreadCountResult.h; sourceTree = "<group>"; };
+		A4BB3D9D1CE5730300C2C07A /* MQUnreadCountResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQUnreadCountResult.m; sourceTree = "<group>"; };
+		A4BB3D9F1CE5730300C2C07A /* MQUserInfoParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQUserInfoParam.h; sourceTree = "<group>"; };
+		A4BB3DA01CE5730300C2C07A /* MQUserInfoParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQUserInfoParam.m; sourceTree = "<group>"; };
+		A4BB3DA11CE5730300C2C07A /* MQUserInfoResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQUserInfoResult.h; sourceTree = "<group>"; };
+		A4BB3DA21CE5730300C2C07A /* MQUserInfoResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQUserInfoResult.m; sourceTree = "<group>"; };
+		A4BB3DA81CE5730300C2C07A /* MQStatusTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQStatusTool.h; sourceTree = "<group>"; };
+		A4BB3DA91CE5730300C2C07A /* MQStatusTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQStatusTool.m; sourceTree = "<group>"; };
+		A4BB3DAA1CE5730300C2C07A /* MQUserTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQUserTool.h; sourceTree = "<group>"; };
+		A4BB3DAB1CE5730300C2C07A /* MQUserTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQUserTool.m; sourceTree = "<group>"; };
 		A4BB3DAC1CE5730300C2C07A /* MQAccountTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQAccountTool.h; sourceTree = "<group>"; };
 		A4BB3DAD1CE5730300C2C07A /* MQAccountTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQAccountTool.m; sourceTree = "<group>"; };
 		A4BB3DAE1CE5730300C2C07A /* MQBaseTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQBaseTool.h; sourceTree = "<group>"; };
@@ -390,16 +390,16 @@
 		A4BB3DB11CE5730300C2C07A /* MQControllerTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQControllerTool.m; sourceTree = "<group>"; };
 		A4BB3DB21CE5730300C2C07A /* MQHttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQHttpTool.h; sourceTree = "<group>"; };
 		A4BB3DB31CE5730300C2C07A /* MQHttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQHttpTool.m; sourceTree = "<group>"; };
-		A4BB3DB51CE5730300C2C07A /* HMTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMTabBar.h; sourceTree = "<group>"; };
-		A4BB3DB61CE5730300C2C07A /* HMTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMTabBar.m; sourceTree = "<group>"; };
-		A4BB3DB91CE5730300C2C07A /* HMMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMMessageViewController.h; sourceTree = "<group>"; };
-		A4BB3DBA1CE5730300C2C07A /* HMMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMMessageViewController.m; sourceTree = "<group>"; };
+		A4BB3DB51CE5730300C2C07A /* MQTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQTabBar.h; sourceTree = "<group>"; };
+		A4BB3DB61CE5730300C2C07A /* MQTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQTabBar.m; sourceTree = "<group>"; };
+		A4BB3DB91CE5730300C2C07A /* MQMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQMessageViewController.h; sourceTree = "<group>"; };
+		A4BB3DBA1CE5730300C2C07A /* MQMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQMessageViewController.m; sourceTree = "<group>"; };
 		A4BB3DBF1CE5730300C2C07A /* MQNewfeatureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQNewfeatureViewController.h; sourceTree = "<group>"; };
 		A4BB3DC01CE5730300C2C07A /* MQNewfeatureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQNewfeatureViewController.m; sourceTree = "<group>"; };
 		A4BB3DC31CE5730300C2C07A /* MQOAuthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQOAuthViewController.h; sourceTree = "<group>"; };
 		A4BB3DC41CE5730300C2C07A /* MQOAuthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQOAuthViewController.m; sourceTree = "<group>"; };
-		A4BB3DC71CE5730300C2C07A /* HMProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMProfileViewController.h; sourceTree = "<group>"; };
-		A4BB3DC81CE5730300C2C07A /* HMProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMProfileViewController.m; sourceTree = "<group>"; };
+		A4BB3DC71CE5730300C2C07A /* MQProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQProfileViewController.h; sourceTree = "<group>"; };
+		A4BB3DC81CE5730300C2C07A /* MQProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQProfileViewController.m; sourceTree = "<group>"; };
 		A4BB3DCB1CE5730300C2C07A /* window.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = window.xml; sourceTree = "<group>"; };
 		A4BB3DCC1CE5730300C2C07A /* 临时.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "临时.h"; sourceTree = "<group>"; };
 		A4BB3E461CE5731E00C2C07A /* backImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backImage@2x.png"; sourceTree = "<group>"; };
@@ -670,10 +670,10 @@
 				A4BB3CEB1CE5730200C2C07A /* Cell */,
 				A4BB3CF41CE5730200C2C07A /* MQPhoto.h */,
 				A4BB3CF51CE5730200C2C07A /* MQPhoto.m */,
-				A4BB3CF61CE5730200C2C07A /* HMStatus.h */,
-				A4BB3CF71CE5730200C2C07A /* HMStatus.m */,
-				A4BB3CF81CE5730200C2C07A /* HMUser.h */,
-				A4BB3CF91CE5730200C2C07A /* HMUser.m */,
+				A4BB3CF61CE5730200C2C07A /* MQStatus.h */,
+				A4BB3CF71CE5730200C2C07A /* MQStatus.m */,
+				A4BB3CF81CE5730200C2C07A /* MQUser.h */,
+				A4BB3CF91CE5730200C2C07A /* MQUser.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -697,13 +697,13 @@
 			isa = PBXGroup;
 			children = (
 				A4BB3CFB1CE5730200C2C07A /* Cell */,
-				A4BB3D0A1CE5730200C2C07A /* HMLoadMoreFooter.h */,
-				A4BB3D0B1CE5730200C2C07A /* HMLoadMoreFooter.m */,
-				A4BB3D0C1CE5730200C2C07A /* HMLoadMoreFooter.xib */,
-				A4BB3D0D1CE5730200C2C07A /* HMPopMenu.h */,
-				A4BB3D0E1CE5730200C2C07A /* HMPopMenu.m */,
-				A4BB3D0F1CE5730200C2C07A /* HMTitleButton.h */,
-				A4BB3D101CE5730200C2C07A /* HMTitleButton.m */,
+				A4BB3D0A1CE5730200C2C07A /* MQLoadMoreFooter.h */,
+				A4BB3D0B1CE5730200C2C07A /* MQLoadMoreFooter.m */,
+				A4BB3D0C1CE5730200C2C07A /* MQLoadMoreFooter.xib */,
+				A4BB3D0D1CE5730200C2C07A /* MQPopMenu.h */,
+				A4BB3D0E1CE5730200C2C07A /* MQPopMenu.m */,
+				A4BB3D0F1CE5730200C2C07A /* MQTitleButton.h */,
+				A4BB3D101CE5730200C2C07A /* MQTitleButton.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -711,20 +711,20 @@
 		A4BB3CFB1CE5730200C2C07A /* Cell */ = {
 			isa = PBXGroup;
 			children = (
-				A4BB3CFC1CE5730200C2C07A /* HMStatusCell.h */,
-				A4BB3CFD1CE5730200C2C07A /* HMStatusCell.m */,
-				A4BB3CFE1CE5730200C2C07A /* HMStatusDetailView.h */,
-				A4BB3CFF1CE5730200C2C07A /* HMStatusDetailView.m */,
-				A4BB3D001CE5730200C2C07A /* HMStatusOriginalView.h */,
-				A4BB3D011CE5730200C2C07A /* HMStatusOriginalView.m */,
-				A4BB3D021CE5730200C2C07A /* HMStatusPhotosView.h */,
-				A4BB3D031CE5730200C2C07A /* HMStatusPhotosView.m */,
-				A4BB3D041CE5730200C2C07A /* HMStatusPhotoView.h */,
-				A4BB3D051CE5730200C2C07A /* HMStatusPhotoView.m */,
-				A4BB3D061CE5730200C2C07A /* HMStatusRetweetedView.h */,
-				A4BB3D071CE5730200C2C07A /* HMStatusRetweetedView.m */,
-				A4BB3D081CE5730200C2C07A /* HMStatusToolbar.h */,
-				A4BB3D091CE5730200C2C07A /* HMStatusToolbar.m */,
+				A4BB3CFC1CE5730200C2C07A /* MQStatusCell.h */,
+				A4BB3CFD1CE5730200C2C07A /* MQStatusCell.m */,
+				A4BB3CFE1CE5730200C2C07A /* MQStatusDetailView.h */,
+				A4BB3CFF1CE5730200C2C07A /* MQStatusDetailView.m */,
+				A4BB3D001CE5730200C2C07A /* MQStatusOriginalView.h */,
+				A4BB3D011CE5730200C2C07A /* MQStatusOriginalView.m */,
+				A4BB3D021CE5730200C2C07A /* MQStatusPhotosView.h */,
+				A4BB3D031CE5730200C2C07A /* MQStatusPhotosView.m */,
+				A4BB3D041CE5730200C2C07A /* MQStatusPhotoView.h */,
+				A4BB3D051CE5730200C2C07A /* MQStatusPhotoView.m */,
+				A4BB3D061CE5730200C2C07A /* MQStatusRetweetedView.h */,
+				A4BB3D071CE5730200C2C07A /* MQStatusRetweetedView.m */,
+				A4BB3D081CE5730200C2C07A /* MQStatusToolbar.h */,
+				A4BB3D091CE5730200C2C07A /* MQStatusToolbar.m */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -763,8 +763,8 @@
 		A4BB3D211CE5730200C2C07A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				A4BB3D221CE5730200C2C07A /* HMNavigationController.h */,
-				A4BB3D231CE5730200C2C07A /* HMNavigationController.m */,
+				A4BB3D221CE5730200C2C07A /* MQNavigationController.h */,
+				A4BB3D231CE5730200C2C07A /* MQNavigationController.m */,
 				A4BB3D241CE5730200C2C07A /* MQTabBarViewController.h */,
 				A4BB3D251CE5730200C2C07A /* MQTabBarViewController.m */,
 			);
@@ -913,8 +913,8 @@
 			isa = PBXGroup;
 			children = (
 				A4BB3D881CE5730300C2C07A /* AccessToken */,
-				A4BB3D8D1CE5730300C2C07A /* HMBaseParam.h */,
-				A4BB3D8E1CE5730300C2C07A /* HMBaseParam.m */,
+				A4BB3D8D1CE5730300C2C07A /* MQBaseParam.h */,
+				A4BB3D8E1CE5730300C2C07A /* MQBaseParam.m */,
 				A4BB3D8F1CE5730300C2C07A /* HomeStatuses */,
 				A4BB3D941CE5730300C2C07A /* SendStatus */,
 				A4BB3D991CE5730300C2C07A /* UnreadCount */,
@@ -937,10 +937,10 @@
 		A4BB3D8F1CE5730300C2C07A /* HomeStatuses */ = {
 			isa = PBXGroup;
 			children = (
-				A4BB3D901CE5730300C2C07A /* HMHomeStatusesParam.h */,
-				A4BB3D911CE5730300C2C07A /* HMHomeStatusesParam.m */,
-				A4BB3D921CE5730300C2C07A /* HMHomeStatusesResult.h */,
-				A4BB3D931CE5730300C2C07A /* HMHomeStatusesResult.m */,
+				A4BB3D901CE5730300C2C07A /* MQHomeStatusesParam.h */,
+				A4BB3D911CE5730300C2C07A /* MQHomeStatusesParam.m */,
+				A4BB3D921CE5730300C2C07A /* MQHomeStatusesResult.h */,
+				A4BB3D931CE5730300C2C07A /* MQHomeStatusesResult.m */,
 			);
 			path = HomeStatuses;
 			sourceTree = "<group>";
@@ -948,10 +948,10 @@
 		A4BB3D941CE5730300C2C07A /* SendStatus */ = {
 			isa = PBXGroup;
 			children = (
-				A4BB3D951CE5730300C2C07A /* HMSendStatusParam.h */,
-				A4BB3D961CE5730300C2C07A /* HMSendStatusParam.m */,
-				A4BB3D971CE5730300C2C07A /* HMSendStatusResult.h */,
-				A4BB3D981CE5730300C2C07A /* HMSendStatusResult.m */,
+				A4BB3D951CE5730300C2C07A /* MQSendStatusParam.h */,
+				A4BB3D961CE5730300C2C07A /* MQSendStatusParam.m */,
+				A4BB3D971CE5730300C2C07A /* MQSendStatusResult.h */,
+				A4BB3D981CE5730300C2C07A /* MQSendStatusResult.m */,
 			);
 			path = SendStatus;
 			sourceTree = "<group>";
@@ -959,10 +959,10 @@
 		A4BB3D991CE5730300C2C07A /* UnreadCount */ = {
 			isa = PBXGroup;
 			children = (
-				A4BB3D9A1CE5730300C2C07A /* HMUnreadCountParam.h */,
-				A4BB3D9B1CE5730300C2C07A /* HMUnreadCountParam.m */,
-				A4BB3D9C1CE5730300C2C07A /* HMUnreadCountResult.h */,
-				A4BB3D9D1CE5730300C2C07A /* HMUnreadCountResult.m */,
+				A4BB3D9A1CE5730300C2C07A /* MQUnreadCountParam.h */,
+				A4BB3D9B1CE5730300C2C07A /* MQUnreadCountParam.m */,
+				A4BB3D9C1CE5730300C2C07A /* MQUnreadCountResult.h */,
+				A4BB3D9D1CE5730300C2C07A /* MQUnreadCountResult.m */,
 			);
 			path = UnreadCount;
 			sourceTree = "<group>";
@@ -970,10 +970,10 @@
 		A4BB3D9E1CE5730300C2C07A /* UserInfo */ = {
 			isa = PBXGroup;
 			children = (
-				A4BB3D9F1CE5730300C2C07A /* HMUserInfoParam.h */,
-				A4BB3DA01CE5730300C2C07A /* HMUserInfoParam.m */,
-				A4BB3DA11CE5730300C2C07A /* HMUserInfoResult.h */,
-				A4BB3DA21CE5730300C2C07A /* HMUserInfoResult.m */,
+				A4BB3D9F1CE5730300C2C07A /* MQUserInfoParam.h */,
+				A4BB3DA01CE5730300C2C07A /* MQUserInfoParam.m */,
+				A4BB3DA11CE5730300C2C07A /* MQUserInfoResult.h */,
+				A4BB3DA21CE5730300C2C07A /* MQUserInfoResult.m */,
 			);
 			path = UserInfo;
 			sourceTree = "<group>";
@@ -981,10 +981,10 @@
 		A4BB3DA71CE5730300C2C07A /* Tool */ = {
 			isa = PBXGroup;
 			children = (
-				A4BB3DA81CE5730300C2C07A /* HMStatusTool.h */,
-				A4BB3DA91CE5730300C2C07A /* HMStatusTool.m */,
-				A4BB3DAA1CE5730300C2C07A /* HMUserTool.h */,
-				A4BB3DAB1CE5730300C2C07A /* HMUserTool.m */,
+				A4BB3DA81CE5730300C2C07A /* MQStatusTool.h */,
+				A4BB3DA91CE5730300C2C07A /* MQStatusTool.m */,
+				A4BB3DAA1CE5730300C2C07A /* MQUserTool.h */,
+				A4BB3DAB1CE5730300C2C07A /* MQUserTool.m */,
 				A4BB3DAC1CE5730300C2C07A /* MQAccountTool.h */,
 				A4BB3DAD1CE5730300C2C07A /* MQAccountTool.m */,
 				A4BB3DAE1CE5730300C2C07A /* MQBaseTool.h */,
@@ -1000,8 +1000,8 @@
 		A4BB3DB41CE5730300C2C07A /* View */ = {
 			isa = PBXGroup;
 			children = (
-				A4BB3DB51CE5730300C2C07A /* HMTabBar.h */,
-				A4BB3DB61CE5730300C2C07A /* HMTabBar.m */,
+				A4BB3DB51CE5730300C2C07A /* MQTabBar.h */,
+				A4BB3DB61CE5730300C2C07A /* MQTabBar.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1019,8 +1019,8 @@
 		A4BB3DB81CE5730300C2C07A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				A4BB3DB91CE5730300C2C07A /* HMMessageViewController.h */,
-				A4BB3DBA1CE5730300C2C07A /* HMMessageViewController.m */,
+				A4BB3DB91CE5730300C2C07A /* MQMessageViewController.h */,
+				A4BB3DBA1CE5730300C2C07A /* MQMessageViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -1086,8 +1086,8 @@
 		A4BB3DC61CE5730300C2C07A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				A4BB3DC71CE5730300C2C07A /* HMProfileViewController.h */,
-				A4BB3DC81CE5730300C2C07A /* HMProfileViewController.m */,
+				A4BB3DC71CE5730300C2C07A /* MQProfileViewController.h */,
+				A4BB3DC81CE5730300C2C07A /* MQProfileViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -1217,7 +1217,7 @@
 				A4BB3DF71CE5730300C2C07A /* JTViewController.xib in Resources */,
 				A4BB3E161CE5730300C2C07A /* MJPhotoBrowser.bundle in Resources */,
 				A4BB3DDB1CE5730300C2C07A /* HMDiscoverViewController.storyboard in Resources */,
-				A4BB3DF31CE5730300C2C07A /* HMLoadMoreFooter.xib in Resources */,
+				A4BB3DF31CE5730300C2C07A /* MQLoadMoreFooter.xib in Resources */,
 				A4BB3DDF1CE5730300C2C07A /* MQOneViewController.xib in Resources */,
 				A4BB3E0A1CE5730300C2C07A /* MBProgressHUD.bundle in Resources */,
 				A4BB3DD41CE5730300C2C07A /* HMEmotionPopView.xib in Resources */,
@@ -1251,34 +1251,34 @@
 				A4BB3E091CE5730300C2C07A /* MBProgressHUD+MJ.m in Sources */,
 				A4BB3E0C1CE5730300C2C07A /* MJArgument.m in Sources */,
 				A4BB3E501CE5732C00C2C07A /* UIColor+RandomColor.m in Sources */,
-				A4BB3E3A1CE5730300C2C07A /* HMStatusTool.m in Sources */,
+				A4BB3E3A1CE5730300C2C07A /* MQStatusTool.m in Sources */,
 				A4BB3DCE1CE5730300C2C07A /* MQEmotion.m in Sources */,
-				A4BB3E321CE5730300C2C07A /* HMSendStatusParam.m in Sources */,
+				A4BB3E321CE5730300C2C07A /* MQSendStatusParam.m in Sources */,
 				A4BB3DD61CE5730300C2C07A /* HMEmotionView.m in Sources */,
-				A4BB3DE91CE5730300C2C07A /* HMStatus.m in Sources */,
+				A4BB3DE91CE5730300C2C07A /* MQStatus.m in Sources */,
 				A4BB3DDE1CE5730300C2C07A /* MQOneViewController.m in Sources */,
 				A4BB3E051CE5730300C2C07A /* AFURLConnectionOperation.m in Sources */,
 				A4BB3E3F1CE5730300C2C07A /* MQHttpTool.m in Sources */,
 				A4BB3E141CE5730300C2C07A /* NSObject+MJMember.m in Sources */,
-				A4BB3DEF1CE5730300C2C07A /* HMStatusPhotoView.m in Sources */,
+				A4BB3DEF1CE5730300C2C07A /* MQStatusPhotoView.m in Sources */,
 				A4BB3E421CE5730300C2C07A /* MQNewfeatureViewController.m in Sources */,
-				A4BB3DF01CE5730300C2C07A /* HMStatusRetweetedView.m in Sources */,
+				A4BB3DF01CE5730300C2C07A /* MQStatusRetweetedView.m in Sources */,
 				A4BB3E211CE5730300C2C07A /* SDWebImageDecoder.m in Sources */,
 				A4BB3E2E1CE5730300C2C07A /* MQAccount.m in Sources */,
 				A4BB3E061CE5730300C2C07A /* AFURLRequestSerialization.m in Sources */,
 				A4BB3DDD1CE5730300C2C07A /* MQBaseViewController.m in Sources */,
-				A4BB3E361CE5730300C2C07A /* HMUserInfoParam.m in Sources */,
+				A4BB3E361CE5730300C2C07A /* MQUserInfoParam.m in Sources */,
 				A4BB3DF91CE5730300C2C07A /* NSDate+MJ.m in Sources */,
 				A4BB3DE61CE5730300C2C07A /* MQStatusOriginalFrame.m in Sources */,
-				A4BB3DF11CE5730300C2C07A /* HMStatusToolbar.m in Sources */,
+				A4BB3DF11CE5730300C2C07A /* MQStatusToolbar.m in Sources */,
 				A4BB3DD81CE5730300C2C07A /* HMComposeToolbar.m in Sources */,
 				A4BB3E011CE5730300C2C07A /* AFHTTPRequestOperationManager.m in Sources */,
 				A4BB3DFF1CE5730300C2C07A /* MQTabBarViewController.m in Sources */,
-				A4BB3E441CE5730300C2C07A /* HMProfileViewController.m in Sources */,
+				A4BB3E441CE5730300C2C07A /* MQProfileViewController.m in Sources */,
 				A4BB3E431CE5730300C2C07A /* MQOAuthViewController.m in Sources */,
 				A4BB3E031CE5730300C2C07A /* AFNetworkReachabilityManager.m in Sources */,
 				A4BB3E3E1CE5730300C2C07A /* MQControllerTool.m in Sources */,
-				A4BB3E371CE5730300C2C07A /* HMUserInfoResult.m in Sources */,
+				A4BB3E371CE5730300C2C07A /* MQUserInfoResult.m in Sources */,
 				A4BB3DE51CE5730300C2C07A /* MQStatusFrame.m in Sources */,
 				A4BB3E3C1CE5730300C2C07A /* MQAccountTool.m in Sources */,
 				A4BB3E021CE5730300C2C07A /* AFHTTPSessionManager.m in Sources */,
@@ -1288,23 +1288,23 @@
 				A4BB3DFC1CE5730300C2C07A /* UIImage+Extension.m in Sources */,
 				A4BB3C851CE570AA00C2C07A /* AppDelegate.m in Sources */,
 				A4BB3DE31CE5730300C2C07A /* MQHomeViewController.m in Sources */,
-				A4BB3DEA1CE5730300C2C07A /* HMUser.m in Sources */,
+				A4BB3DEA1CE5730300C2C07A /* MQUser.m in Sources */,
 				A4BB3E2B1CE5730300C2C07A /* UIImageView+WebCache.m in Sources */,
 				A4BB3E2A1CE5730300C2C07A /* UIImageView+HighlightedWebCache.m in Sources */,
 				A4BB3E101CE5730300C2C07A /* MJType.m in Sources */,
 				A4BB3E1E1CE5730300C2C07A /* NSData+ImageContentType.m in Sources */,
 				A4BB3E1C1CE5730300C2C07A /* SDWebImageManager+MJ.m in Sources */,
 				A4BB3E131CE5730300C2C07A /* NSObject+MJKeyValue.m in Sources */,
-				A4BB3E351CE5730300C2C07A /* HMUnreadCountResult.m in Sources */,
-				A4BB3DFE1CE5730300C2C07A /* HMNavigationController.m in Sources */,
+				A4BB3E351CE5730300C2C07A /* MQUnreadCountResult.m in Sources */,
+				A4BB3DFE1CE5730300C2C07A /* MQNavigationController.m in Sources */,
 				A4BB3DDC1CE5730300C2C07A /* HMSearchBar.m in Sources */,
 				A4BB3E041CE5730300C2C07A /* AFSecurityPolicy.m in Sources */,
 				A4BB3DD31CE5730300C2C07A /* HMEmotionPopView.m in Sources */,
 				A4BB3DD51CE5730300C2C07A /* HMEmotionToolbar.m in Sources */,
 				A4BB3DE71CE5730300C2C07A /* MQStatusRetweetedFrame.m in Sources */,
 				A4BB3E151CE5730300C2C07A /* MJPhoto.m in Sources */,
-				A4BB3E341CE5730300C2C07A /* HMUnreadCountParam.m in Sources */,
-				A4BB3E401CE5730300C2C07A /* HMTabBar.m in Sources */,
+				A4BB3E341CE5730300C2C07A /* MQUnreadCountParam.m in Sources */,
+				A4BB3E401CE5730300C2C07A /* MQTabBar.m in Sources */,
 				A4BB3E291CE5730300C2C07A /* UIImage+WebP.m in Sources */,
 				A4BB3DE81CE5730300C2C07A /* MQPhoto.m in Sources */,
 				A4BB3E521CE5732C00C2C07A /* UIViewController+JTNavigationExtension.m in Sources */,
@@ -1316,49 +1316,49 @@
 				A4BB3DDA1CE5730300C2C07A /* HMDiscoverViewController.m in Sources */,
 				A4BB3E1F1CE5730300C2C07A /* SDImageCache.m in Sources */,
 				A4BB3DCD1CE5730300C2C07A /* MQComposeViewController.m in Sources */,
-				A4BB3E331CE5730300C2C07A /* HMSendStatusResult.m in Sources */,
+				A4BB3E331CE5730300C2C07A /* MQSendStatusResult.m in Sources */,
 				A4BB3E261CE5730300C2C07A /* UIButton+WebCache.m in Sources */,
 				A4BB3E1A1CE5730300C2C07A /* MJPhotoToolbar.m in Sources */,
 				A4BB3E2D1CE5730300C2C07A /* MQAccessTokenParam.m in Sources */,
 				A4BB3E271CE5730300C2C07A /* UIImage+GIF.m in Sources */,
-				A4BB3E3B1CE5730300C2C07A /* HMUserTool.m in Sources */,
+				A4BB3E3B1CE5730300C2C07A /* MQUserTool.m in Sources */,
 				A4BB3E511CE5732C00C2C07A /* JTNavigationController.m in Sources */,
 				A4BB3DD21CE5730300C2C07A /* HMEmotionListView.m in Sources */,
 				A4BB3DFB1CE5730300C2C07A /* UIBarButtonItem+Extension.m in Sources */,
-				A4BB3DEE1CE5730300C2C07A /* HMStatusPhotosView.m in Sources */,
+				A4BB3DEE1CE5730300C2C07A /* MQStatusPhotosView.m in Sources */,
 				A4BB3E1D1CE5730300C2C07A /* MKAnnotationView+WebCache.m in Sources */,
 				A4BB3E251CE5730300C2C07A /* SDWebImagePrefetcher.m in Sources */,
 				A4BB3E201CE5730300C2C07A /* SDWebImageCompat.m in Sources */,
 				A4BB3DF61CE5730300C2C07A /* JTViewController.m in Sources */,
 				A4BB3DCF1CE5730300C2C07A /* MQEmotionTool.m in Sources */,
 				A4BB3E2C1CE5730300C2C07A /* UIView+WebCacheOperation.m in Sources */,
-				A4BB3DF51CE5730300C2C07A /* HMTitleButton.m in Sources */,
+				A4BB3DF51CE5730300C2C07A /* MQTitleButton.m in Sources */,
 				A4BB3E281CE5730300C2C07A /* UIImage+MultiFormat.m in Sources */,
-				A4BB3DF41CE5730300C2C07A /* HMPopMenu.m in Sources */,
+				A4BB3DF41CE5730300C2C07A /* MQPopMenu.m in Sources */,
 				A4BB3E231CE5730300C2C07A /* SDWebImageDownloaderOperation.m in Sources */,
 				A4BB3E121CE5730300C2C07A /* NSObject+MJCoding.m in Sources */,
-				A4BB3E311CE5730300C2C07A /* HMHomeStatusesResult.m in Sources */,
+				A4BB3E311CE5730300C2C07A /* MQHomeStatusesResult.m in Sources */,
 				A4BB3E181CE5730300C2C07A /* MJPhotoLoadingView.m in Sources */,
 				A4BB3E3D1CE5730300C2C07A /* MQBaseTool.m in Sources */,
 				A4BB3E221CE5730300C2C07A /* SDWebImageDownloader.m in Sources */,
-				A4BB3DF21CE5730300C2C07A /* HMLoadMoreFooter.m in Sources */,
+				A4BB3DF21CE5730300C2C07A /* MQLoadMoreFooter.m in Sources */,
 				A4BB3E191CE5730300C2C07A /* MJPhotoProgressView.m in Sources */,
 				A4BB3C821CE570AA00C2C07A /* main.m in Sources */,
-				A4BB3DEB1CE5730300C2C07A /* HMStatusCell.m in Sources */,
+				A4BB3DEB1CE5730300C2C07A /* MQStatusCell.m in Sources */,
 				A4BB3DE41CE5730300C2C07A /* MQStatusDetailFrame.m in Sources */,
 				A4BB3E081CE5730300C2C07A /* AFURLSessionManager.m in Sources */,
-				A4BB3DED1CE5730300C2C07A /* HMStatusOriginalView.m in Sources */,
-				A4BB3E2F1CE5730300C2C07A /* HMBaseParam.m in Sources */,
+				A4BB3DED1CE5730300C2C07A /* MQStatusOriginalView.m in Sources */,
+				A4BB3E2F1CE5730300C2C07A /* MQBaseParam.m in Sources */,
 				A4BB3DD11CE5730300C2C07A /* HMEmotionKeyboard.m in Sources */,
-				A4BB3DEC1CE5730300C2C07A /* HMStatusDetailView.m in Sources */,
-				A4BB3E301CE5730300C2C07A /* HMHomeStatusesParam.m in Sources */,
+				A4BB3DEC1CE5730300C2C07A /* MQStatusDetailView.m in Sources */,
+				A4BB3E301CE5730300C2C07A /* MQHomeStatusesParam.m in Sources */,
 				A4BB3DFD1CE5730300C2C07A /* UIView+Extension.m in Sources */,
 				A4BB3DD71CE5730300C2C07A /* HMComposePhotosView.m in Sources */,
 				A4BB3E0B1CE5730300C2C07A /* MBProgressHUD.m in Sources */,
 				A4BB3DE01CE5730300C2C07A /* MQThreeViewController.m in Sources */,
 				A4BB3E0D1CE5730300C2C07A /* MJIvar.m in Sources */,
 				A4BB3E071CE5730300C2C07A /* AFURLResponseSerialization.m in Sources */,
-				A4BB3E411CE5730300C2C07A /* HMMessageViewController.m in Sources */,
+				A4BB3E411CE5730300C2C07A /* MQMessageViewController.m in Sources */,
 				A4BB3DD91CE5730300C2C07A /* MQTextView.m in Sources */,
 				A4BB3E241CE5730300C2C07A /* SDWebImageManager.m in Sources */,
 			);

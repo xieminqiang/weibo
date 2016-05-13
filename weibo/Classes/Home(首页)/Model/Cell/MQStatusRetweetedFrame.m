@@ -7,13 +7,13 @@
 //
 
 #import "MQStatusRetweetedFrame.h"
-#import "HMStatus.h"
-#import "HMUser.h"
-#import "HMStatusPhotosView.h"
+#import "MQStatus.h"
+#import "MQUser.h"
+#import "MQStatusPhotosView.h"
 
 @implementation MQStatusRetweetedFrame
 
-- (void)setRetweetedStatus:(HMStatus *)retweetedStatus
+- (void)setRetweetedStatus:(MQStatus *)retweetedStatus
 {
     _retweetedStatus = retweetedStatus;
     
@@ -37,7 +37,7 @@
     if (retweetedStatus.pic_urls.count) {
         CGFloat photosX = textX;
         CGFloat photosY = CGRectGetMaxY(self.textFrame) + HMStatusCellInset;
-        CGSize photosSize = [HMStatusPhotosView sizeWithPhotosCount:retweetedStatus.pic_urls.count];
+        CGSize photosSize = [MQStatusPhotosView sizeWithPhotosCount:retweetedStatus.pic_urls.count];
         self.photosFrame = (CGRect){{photosX, photosY}, photosSize};
         
         h = CGRectGetMaxY(self.photosFrame) + HMStatusCellInset;

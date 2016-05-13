@@ -8,19 +8,19 @@
 
 #import "MQHomeViewController.h"
 #import "MQOneViewController.h"
-#import "HMTitleButton.h"
-#import "HMPopMenu.h"
+#import "MQTitleButton.h"
+#import "MQPopMenu.h"
 #import "MQAccountTool.h"
 #import "MQAccount.h"
 #import "UIImageView+WebCache.h"
-#import "HMStatus.h"
+#import "MQStatus.h"
 #import "MQStatusFrame.h"
-#import "HMUser.h"
+#import "MQUser.h"
 #import "MJExtension.h"
-#import "HMLoadMoreFooter.h"
-#import "HMStatusTool.h"
-#import "HMUserTool.h"
-#import "HMStatusCell.h"
+#import "MQLoadMoreFooter.h"
+#import "MQStatusTool.h"
+#import "MQUserTool.h"
+#import "MQStatusCell.h"
 #import "JTNavigationController.h"
 #import "UIViewController+JTNavigationExtension.h"
 
@@ -31,8 +31,8 @@
 @property (nonatomic, strong) NSMutableArray *statusFrames;
 
 @property (nonatomic, weak) UIRefreshControl *refreshControl;
-@property (nonatomic, weak) HMLoadMoreFooter *footer;
-@property (nonatomic, weak) HMTitleButton *titleButton;
+@property (nonatomic, weak) MQLoadMoreFooter *footer;
+@property (nonatomic, weak) MQTitleButton *titleButton;
 @end
 
 @implementation MQHomeViewController
@@ -70,11 +70,11 @@
 - (void)setupUserInfo
 {
     // 1.封装请求参数
-    HMUserInfoParam *param = [HMUserInfoParam param];
+    MQUserInfoParam *param = [MQUserInfoParam param];
     param.uid = [MQAccountTool account].uid;
     
     // 2.加载用户信息
-    [HMUserTool userInfoWithParam:param success:^(HMUserInfoResult *user) {
+    [MQUserTool userInfoWithParam:param success:^(MQUserInfoResult *user) {
          // 设置用户的昵称为标题
          [self.titleButton setTitle:user.name forState:UIControlStateNormal];
 
@@ -103,7 +103,7 @@
 //      firstNav.fullScreenPopGestureEnabled = YES;
 
     // 设置导航栏中间的标题按钮
-    HMTitleButton *titleButton = [[HMTitleButton alloc] init];
+    MQTitleButton *titleButton = [[MQTitleButton alloc] init];
     // 设置尺寸
     titleButton.height = 35;
     // 设置文字
@@ -139,7 +139,7 @@
     [self refreshControlStateChange:refreshControl];
     
     // 5.添加上拉加载更多控件
-    HMLoadMoreFooter *footer = [HMLoadMoreFooter footer];
+    MQLoadMoreFooter *footer = [MQLoadMoreFooter footer];
     self.tableView.tableFooterView = footer;
     self.footer = footer;
 }
@@ -179,7 +179,7 @@
 - (NSArray *)statusFramesWithStatuses:(NSArray *)statuses
 {
     NSMutableArray *frames = [NSMutableArray array];
-    for (HMStatus *status in statuses) {
+    for (MQStatus *status in statuses) {
         MQStatusFrame *frame = [[MQStatusFrame alloc] init];
         // 传递微博模型数据，计算所有子控件的frame
         frame.status = status;
@@ -194,15 +194,15 @@
 - (void)loadNewStatuses:(UIRefreshControl *)refreshControl
 {
     // 1.封装请求参数
-    HMHomeStatusesParam *param = [HMHomeStatusesParam param];
+    MQHomeStatusesParam *param = [MQHomeStatusesParam param];
     MQStatusFrame *firstStatusFrame =  [self.statusFrames firstObject];
-    HMStatus *firstStatus = firstStatusFrame.status;
+    MQStatus *firstStatus = firstStatusFrame.status;
     if (firstStatus) {
         param.since_id = @([firstStatus.idstr longLongValue]);
     }
     
     // 2.加载微博数据
-    [HMStatusTool homeStatusesWithParam:param success:^(HMHomeStatusesResult *result) {
+    [MQStatusTool homeStatusesWithParam:param success:^(MQHomeStatusesResult *result) {
         // 获得最新的微博frame数组
         NSArray *newFrames = [self statusFramesWithStatuses:result.statuses];
         
@@ -232,15 +232,15 @@
 - (void)loadMoreStatuses
 {
     // 1.封装请求参数
-    HMHomeStatusesParam *param = [HMHomeStatusesParam param];
+    MQHomeStatusesParam *param = [MQHomeStatusesParam param];
     MQStatusFrame *lastStatusFrame =  [self.statusFrames lastObject];
-    HMStatus *lastStatus = lastStatusFrame.status;
+    MQStatus *lastStatus = lastStatusFrame.status;
     if (lastStatus) {
         param.max_id = @([lastStatus.idstr longLongValue] - 1);
     }
     
     // 2.加载微博数据
-    [HMStatusTool homeStatusesWithParam:param success:^(HMHomeStatusesResult *result) {
+    [MQStatusTool homeStatusesWithParam:param success:^(MQHomeStatusesResult *result) {
         // 获得最新的微博frame数组
         NSArray *newFrames = [self statusFramesWithStatuses:result.statuses];
 
@@ -316,9 +316,9 @@
 }
 
 #pragma mark - 弹出菜单协议
-- (void)popMenuDidDismissed:(HMPopMenu *)popMenu
+- (void)popMenuDidDismissed:(MQPopMenu *)popMenu
 {
-    HMTitleButton *titleButton = (HMTitleButton *)self.navigationItem.titleView;
+    MQTitleButton *titleButton = (MQTitleButton *)self.navigationItem.titleView;
     [titleButton setImage:[UIImage imageWithName:@"navigationbar_arrow_down"] forState:UIControlStateNormal];
 }
 
@@ -335,7 +335,7 @@
     UIButton *button = [UIButton buttonWithType:UIButtonTypeContactAdd];
     button.backgroundColor = [UIColor blueColor];
     
-    HMPopMenu *menu = [[HMPopMenu alloc ] initWithContentView:nil];
+    MQPopMenu *menu = [[MQPopMenu alloc ] initWithContentView:nil];
     menu.delegate = self;
     menu.arrowPosition = HMPopMenuArrowPositionCenter;
     //    menu.dimBackground = YES;
@@ -378,7 +378,7 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    HMStatusCell *cell = [HMStatusCell cellWithTableView:tableView];
+    MQStatusCell *cell = [MQStatusCell cellWithTableView:tableView];
     
     cell.statusFrame = self.statusFrames[indexPath.row];
     

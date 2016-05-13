@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-@class HMStatus;
+@class MQStatus;
 @interface MQStatusRetweetedFrame : NSObject
 /** 昵称 */
 @property (nonatomic, assign) CGRect nameFrame;
@@ -20,5 +20,5 @@
 @property (nonatomic, assign) CGRect frame;
 
 /** 转发微博的数据 */
-@property (nonatomic, strong) HMStatus *retweetedStatus;
+@property (nonatomic, strong) MQStatus *retweetedStatus;
 @end

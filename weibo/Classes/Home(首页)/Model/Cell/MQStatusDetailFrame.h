@@ -7,14 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
-@class HMStatus, MQStatusOriginalFrame, MQStatusRetweetedFrame;
+@class MQStatus, MQStatusOriginalFrame, MQStatusRetweetedFrame;
 
 @interface MQStatusDetailFrame : NSObject
 @property (nonatomic, strong) MQStatusOriginalFrame *originalFrame;
 @property (nonatomic, strong) MQStatusRetweetedFrame *retweetedFrame;
 
 /** 微博数据 */
-@property (nonatomic, strong) HMStatus *status;
+@property (nonatomic, strong) MQStatus *status;
 
 /**
  *  自己的frame

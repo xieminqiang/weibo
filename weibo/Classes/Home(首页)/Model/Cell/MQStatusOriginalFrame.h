@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-@class HMStatus;
+@class MQStatus;
 
 @interface MQStatusOriginalFrame : NSObject
 /** 昵称 */
@@ -25,5 +25,5 @@
 @property (nonatomic, assign) CGRect frame;
 
 /** 微博数据 */
-@property (nonatomic, strong) HMStatus *status;
+@property (nonatomic, strong) MQStatus *status;
 @end

@@ -1,9 +1,9 @@
 //
-//  HMEmotion.m
-//  黑马微博
+//  MQEmotion.m
+//  weibo
 //
-//  Created by apple on 14-7-15.
-//  Copyright (c) 2014年 heima. All rights reserved.
+//  Created by apple on 15-7-15.
+//  Copyright (c) 2014年 weibo. All rights reserved.
 //
 
 #import "MQEmotion.h"
