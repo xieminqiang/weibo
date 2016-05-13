@@ -4,7 +4,7 @@
 //
 //  Created by apple on 15-7-15.
 //  Copyright (c) 2015年 weibo. All rights reserved.
-//  表情
+//  https://github.com/xieminqiang/weibo
 
 #import <Foundation/Foundation.h>
 

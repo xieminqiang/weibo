@@ -1,9 +1,7 @@
 //
-//  HMStatusTool.h
-//  黑马微博
-//
-//  Created by apple on 14-7-11.
-//  Copyright (c) 2014年 heima. All rights reserved.
+//高仿微博
+//作者：强子哥哥
+//https://github.com/xieminqiang/weibo
 //  微博业务类：处理跟微博相关的一切业务，比如加载微博数据、发微博、删微博
 
 #import <Foundation/Foundation.h>

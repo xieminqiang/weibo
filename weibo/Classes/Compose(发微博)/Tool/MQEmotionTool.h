@@ -1,10 +1,12 @@
-//
-//  HMEmotionTool.h
-//  黑马微博
-//
-//  Created by apple on 14-7-17.
-//  Copyright (c) 2014年 heima. All rights reserved.
-//  管理表情数据：加载表情数据、存储表情使用记录
+
+
+
+//高仿微博
+//作者：强子哥哥
+//https://github.com/xieminqiang/weibo
+
+
+
 
 #import <Foundation/Foundation.h>
 @class MQEmotion;

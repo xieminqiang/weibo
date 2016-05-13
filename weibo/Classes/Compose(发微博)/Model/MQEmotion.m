@@ -3,8 +3,8 @@
 //  weibo
 //
 //  Created by apple on 15-7-15.
-//  Copyright (c) 2014年 weibo. All rights reserved.
-//
+//  Copyright (c) 2015年 weibo. All rights reserved.
+//   https://github.com/xieminqiang/weibo
 
 #import "MQEmotion.h"
 #import "NSString+Emoji.h"

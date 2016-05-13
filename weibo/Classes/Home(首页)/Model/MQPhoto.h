@@ -1,9 +1,7 @@
 //
-//  HMPhoto.h
-//  黑马微博
-//
-//  Created by apple on 14-7-8.
-//  Copyright (c) 2014年 heima. All rights reserved.
+//高仿微博
+//作者：强子哥哥
+//https://github.com/xieminqiang/weibo
 //
 
 #import <Foundation/Foundation.h>

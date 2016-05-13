@@ -1,9 +1,7 @@
 //
-//  HMHttpTool.h
-//  黑马微博
-//
-//  Created by apple on 14-7-11.
-//  Copyright (c) 2014年 heima. All rights reserved.
+//高仿微博
+//作者：强子哥哥
+//https://github.com/xieminqiang/weibo
 //  网络请求工具类：负责整个项目的所有HTTP请求
 
 #import <Foundation/Foundation.h>
