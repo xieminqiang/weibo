@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UIWindow frame="{{0, 0}, {320, 480}}">
+    <UILayoutContainerView frame="{{0, 0}, {320, 480}}">
+        <UINavigationTransitionView frame="{{0, 0}, {320, 480}}">
+            <UIViewControllerWrapperView frame="{{0, 0}, {320, 480}}">
+                <UIView frame="{{0, 0}, {320, 480}}">
+                    <HMTextView frame="{{0, 0}, {320, 480}}">
+                        <UITextContainerView frame="{{0, 0}, {320, 34}}">
+                            <UITextSelectionView frame="{{0, 0}, {0, 0}}">
+                                <UIView frame="{{4, 7}, {2, 19.395}}">
+                                </UIView>
+                            </UITextSelectionView>
+                        </UITextContainerView>
+                        <UILabel frame="{{5, 8}, {310, 17.895}}">
+                        </UILabel>
+                        <HMComposePhotosView frame="{{0, 70}, {320, 480}}">
+                        </HMComposePhotosView>
+                        <UIImageView frame="{{313, 476.5}, {7, 3.5}}">
+                        </UIImageView>
+                        <UIImageView frame="{{316.5, 473}, {3.5, 7}}">
+                        </UIImageView>
+                    </HMTextView>
+                    <HMComposeToolbar frame="{{0, 220}, {320, 44}}">
+                        <UIButton frame="{{0, 0}, {64, 44}}">
+                            <UIImageView frame="{{20, 10}, {24, 24}}">
+                            </UIImageView>
+                        </UIButton>
+                        <UIButton frame="{{64, 0}, {64, 44}}">
+                            <UIImageView frame="{{20, 10}, {24, 24}}">
+                            </UIImageView>
+                        </UIButton>
+                        <UIButton frame="{{128, 0}, {64, 44}}">
+                            <UIImageView frame="{{20, 10}, {24, 24}}">
+                            </UIImageView>
+                        </UIButton>
+                        <UIButton frame="{{192, 0}, {64, 44}}">
+                            <UIImageView frame="{{20, 10}, {24, 24}}">
+                            </UIImageView>
+                        </UIButton>
+                        <UIButton frame="{{256, 0}, {64, 44}}">
+                            <UIImageView frame="{{20, 10}, {24, 24}}">
+                            </UIImageView>
+                        </UIButton>
+                    </HMComposeToolbar>
+                </UIView>
+            </UIViewControllerWrapperView>
+        </UINavigationTransitionView>
+        <UINavigationBar frame="{{0, 20}, {320, 44}}">
+            <UINavigationBarBackground frame="{{0, -20}, {320, 64}}">
+                <UIBackdropView frame="{{0, 0}, {320, 64}}">
+                    <UIBackdropEffectView frame="{{0, 0}, {320, 64}}">
+                    </UIBackdropEffectView>
+                    <UIView frame="{{0, 0}, {320, 64}}">
+                    </UIView>
+                </UIBackdropView>
+                <UIImageView frame="{{0, 64}, {320, 0.5}}">
+                </UIImageView>
+            </UINavigationBarBackground>
+            <UINavigationItemView frame="{{130, 8}, {60, 27}}">
+                <UILabel frame="{{0, 1}, {60, 24}}">
+                </UILabel>
+            </UINavigationItemView>
+            <UINavigationButton frame="{{8, 7.5}, {30, 30}}">
+                <UIButtonLabel frame="{{0, 6}, {30, 18}}">
+                </UIButtonLabel>
+            </UINavigationButton>
+            <UINavigationButton frame="{{282, 7.5}, {30, 30}}">
+                <UIButtonLabel frame="{{0, 6}, {30, 18}}">
+                </UIButtonLabel>
+            </UINavigationButton>
+            <UINavigationBarBackIndicatorView frame="{{8, 12}, {12.5, 20.5}}">
+            </UINavigationBarBackIndicatorView>
+        </UINavigationBar>
+    </UILayoutContainerView>
+</UIWindow>
+<UITextEffectsWindow frame="{{0, 0}, {320, 480}}">
+    <UIPeripheralHostView frame="{{0, 264}, {320, 216}}">
+        <UIKBInputBackdropView frame="{{0, 0}, {320, 216}}">
+            <UIKBBackdropView frame="{{0, 0}, {320, 216}}">
+                <UIBackdropEffectView frame="{{0, 0}, {320, 216}}">
+                </UIBackdropEffectView>
+                <UIView frame="{{0, 0}, {320, 216}}">
+                </UIView>
+                <UIView frame="{{0, 0}, {320, 216}}">
+                </UIView>
+                <UIView frame="{{0, 0}, {320, 216}}">
+                </UIView>
+                <UIView frame="{{0, 0}, {320, 216}}">
+                </UIView>
+            </UIKBBackdropView>
+        </UIKBInputBackdropView>
+        <UIKeyboardAutomatic frame="{{0, 0}, {320, 216}}">
+            <UIKeyboardImpl frame="{{0, 0}, {320, 216}}">
+                <UIKeyboardLayoutStar frame="{{0, 0}, {320, 216}}">
+                    <UIKBBackgroundView frame="{{0, 0}, {320, 216}}">
+                        <UIImageView frame="{{0, 0}, {320, 216}}">
+                        </UIImageView>
+                    </UIKBBackgroundView>
+                    <UIKBKeyplaneView frame="{{0, 0}, {320, 216}}">
+                        <UIKBSplitImageView frame="{{0, 0}, {320, 216}}">
+                        </UIKBSplitImageView>
+                        <UIKBSplitImageView frame="{{0, 0}, {320, 216}}">
+                            <UIImageView frame="{{0, 0}, {320, 216}}">
+                            </UIImageView>
+                        </UIKBSplitImageView>
+                        <UIKBSplitImageView frame="{{0, 0}, {320, 216}}">
+                            <UIImageView frame="{{0, 0}, {320, 216}}">
+                            </UIImageView>
+                        </UIKBSplitImageView>
+                        <UIKBKeyView frame="{{1, 119}, {40, 42}}">
+                        </UIKBKeyView>
+                        <UIKBKeyView frame="{{279, 119}, {40, 42}}">
+                        </UIKBKeyView>
+                        <UIKBKeyView frame="{{1, 173}, {38, 42}}">
+                        </UIKBKeyView>
+                        <UIKBKeyView frame="{{41, 173}, {38, 42}}">
+                        </UIKBKeyView>
+                        <UIKBKeyView frame="{{81, 173}, {158, 42}}">
+                        </UIKBKeyView>
+                        <UIKBKeyView frame="{{241, 173}, {78, 42}}">
+                        </UIKBKeyView>
+                    </UIKBKeyplaneView>
+                </UIKeyboardLayoutStar>
+            </UIKeyboardImpl>
+        </UIKeyboardAutomatic>
+    </UIPeripheralHostView>
+</UITextEffectsWindow>

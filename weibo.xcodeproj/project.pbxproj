@@ -13,8 +13,8 @@
 		A4BB3C901CE570AB00C2C07A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4BB3C8E1CE570AB00C2C07A /* LaunchScreen.storyboard */; };
 		A4BB3C9B1CE570AB00C2C07A /* weiboTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3C9A1CE570AB00C2C07A /* weiboTests.m */; };
 		A4BB3CA61CE570AB00C2C07A /* weiboUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3CA51CE570AB00C2C07A /* weiboUITests.m */; };
-		A4BB3DCD1CE5730300C2C07A /* HMComposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3CB71CE5730200C2C07A /* HMComposeViewController.m */; };
-		A4BB3DCE1CE5730300C2C07A /* HMEmotion.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3CBA1CE5730200C2C07A /* HMEmotion.m */; };
+		A4BB3DCD1CE5730300C2C07A /* MQComposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3CB71CE5730200C2C07A /* MQComposeViewController.m */; };
+		A4BB3DCE1CE5730300C2C07A /* MQEmotion.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3CBA1CE5730200C2C07A /* MQEmotion.m */; };
 		A4BB3DCF1CE5730300C2C07A /* HMEmotionTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3CBD1CE5730200C2C07A /* HMEmotionTool.m */; };
 		A4BB3DD01CE5730300C2C07A /* HMEmotionGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3CC11CE5730200C2C07A /* HMEmotionGridView.m */; };
 		A4BB3DD11CE5730300C2C07A /* HMEmotionKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3CC31CE5730200C2C07A /* HMEmotionKeyboard.m */; };
@@ -170,10 +170,10 @@
 		A4BB3CA11CE570AB00C2C07A /* weiboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weiboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4BB3CA51CE570AB00C2C07A /* weiboUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = weiboUITests.m; sourceTree = "<group>"; };
 		A4BB3CA71CE570AB00C2C07A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A4BB3CB61CE5730200C2C07A /* HMComposeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMComposeViewController.h; sourceTree = "<group>"; };
-		A4BB3CB71CE5730200C2C07A /* HMComposeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMComposeViewController.m; sourceTree = "<group>"; };
-		A4BB3CB91CE5730200C2C07A /* HMEmotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMEmotion.h; sourceTree = "<group>"; };
-		A4BB3CBA1CE5730200C2C07A /* HMEmotion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMEmotion.m; sourceTree = "<group>"; };
+		A4BB3CB61CE5730200C2C07A /* MQComposeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQComposeViewController.h; sourceTree = "<group>"; };
+		A4BB3CB71CE5730200C2C07A /* MQComposeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQComposeViewController.m; sourceTree = "<group>"; };
+		A4BB3CB91CE5730200C2C07A /* MQEmotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQEmotion.h; sourceTree = "<group>"; };
+		A4BB3CBA1CE5730200C2C07A /* MQEmotion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQEmotion.m; sourceTree = "<group>"; };
 		A4BB3CBC1CE5730200C2C07A /* HMEmotionTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMEmotionTool.h; sourceTree = "<group>"; };
 		A4BB3CBD1CE5730200C2C07A /* HMEmotionTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMEmotionTool.m; sourceTree = "<group>"; };
 		A4BB3CC01CE5730200C2C07A /* HMEmotionGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMEmotionGridView.h; sourceTree = "<group>"; };
@@ -508,6 +508,9 @@
 				A4BB3E4D1CE5732C00C2C07A /* JTNavigationController.m */,
 				A4BB3E4E1CE5732C00C2C07A /* UIViewController+JTNavigationExtension.h */,
 				A4BB3E4F1CE5732C00C2C07A /* UIViewController+JTNavigationExtension.m */,
+				A4BB3D111CE5730200C2C07A /* JTViewController.h */,
+				A4BB3D121CE5730200C2C07A /* JTViewController.m */,
+				A4BB3D131CE5730200C2C07A /* JTViewController.xib */,
 				A4BB3E461CE5731E00C2C07A /* backImage@2x.png */,
 				A4BB3E471CE5731E00C2C07A /* backImage@3x.png */,
 				A4BB3CB41CE5730200C2C07A /* Compose(发微博) */,
@@ -523,9 +526,6 @@
 				A4BB3CE41CE5730200C2C07A /* HMTwoViewController.m */,
 				A4BB3CE51CE5730200C2C07A /* HMTwoViewController.xib */,
 				A4BB3CE61CE5730200C2C07A /* Home(首页) */,
-				A4BB3D111CE5730200C2C07A /* JTViewController.h */,
-				A4BB3D121CE5730200C2C07A /* JTViewController.m */,
-				A4BB3D131CE5730200C2C07A /* JTViewController.xib */,
 				A4BB3D141CE5730200C2C07A /* Main(主要) */,
 				A4BB3DB71CE5730300C2C07A /* Message(消息) */,
 				A4BB3DBD1CE5730300C2C07A /* Newfeature(新特性) */,
@@ -551,8 +551,8 @@
 		A4BB3CB51CE5730200C2C07A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				A4BB3CB61CE5730200C2C07A /* HMComposeViewController.h */,
-				A4BB3CB71CE5730200C2C07A /* HMComposeViewController.m */,
+				A4BB3CB61CE5730200C2C07A /* MQComposeViewController.h */,
+				A4BB3CB71CE5730200C2C07A /* MQComposeViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -560,8 +560,8 @@
 		A4BB3CB81CE5730200C2C07A /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				A4BB3CB91CE5730200C2C07A /* HMEmotion.h */,
-				A4BB3CBA1CE5730200C2C07A /* HMEmotion.m */,
+				A4BB3CB91CE5730200C2C07A /* MQEmotion.h */,
+				A4BB3CBA1CE5730200C2C07A /* MQEmotion.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -1252,7 +1252,7 @@
 				A4BB3E0C1CE5730300C2C07A /* MJArgument.m in Sources */,
 				A4BB3E501CE5732C00C2C07A /* UIColor+RandomColor.m in Sources */,
 				A4BB3E3A1CE5730300C2C07A /* HMStatusTool.m in Sources */,
-				A4BB3DCE1CE5730300C2C07A /* HMEmotion.m in Sources */,
+				A4BB3DCE1CE5730300C2C07A /* MQEmotion.m in Sources */,
 				A4BB3E321CE5730300C2C07A /* HMSendStatusParam.m in Sources */,
 				A4BB3DD61CE5730300C2C07A /* HMEmotionView.m in Sources */,
 				A4BB3DE91CE5730300C2C07A /* HMStatus.m in Sources */,
@@ -1315,7 +1315,7 @@
 				A4BB3E111CE5730300C2C07A /* MJTypeEncoding.m in Sources */,
 				A4BB3DDA1CE5730300C2C07A /* HMDiscoverViewController.m in Sources */,
 				A4BB3E1F1CE5730300C2C07A /* SDImageCache.m in Sources */,
-				A4BB3DCD1CE5730300C2C07A /* HMComposeViewController.m in Sources */,
+				A4BB3DCD1CE5730300C2C07A /* MQComposeViewController.m in Sources */,
 				A4BB3E331CE5730300C2C07A /* HMSendStatusResult.m in Sources */,
 				A4BB3E261CE5730300C2C07A /* UIButton+WebCache.m in Sources */,
 				A4BB3E1A1CE5730300C2C07A /* MJPhotoToolbar.m in Sources */,
