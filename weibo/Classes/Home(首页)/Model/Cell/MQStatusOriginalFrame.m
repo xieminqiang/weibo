@@ -6,12 +6,12 @@
 //  Copyright (c) 2014年 heima. All rights reserved.
 //
 
-#import "HMStatusOriginalFrame.h"
+#import "MQStatusOriginalFrame.h"
 #import "HMStatus.h"
 #import "HMUser.h"
 #import "HMStatusPhotosView.h"
 
-@implementation HMStatusOriginalFrame
+@implementation MQStatusOriginalFrame
 
 - (void)setStatus:(HMStatus *)status
 {

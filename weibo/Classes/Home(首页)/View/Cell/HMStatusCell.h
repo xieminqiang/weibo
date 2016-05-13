@@ -7,10 +7,10 @@
 //  微博cell
 
 #import <UIKit/UIKit.h>
-@class HMStatusFrame;
+@class MQStatusFrame;
 
 @interface HMStatusCell : UITableViewCell
 + (instancetype)cellWithTableView:(UITableView *)tableView;
 
-@property (nonatomic, strong) HMStatusFrame *statusFrame;
+@property (nonatomic, strong) MQStatusFrame *statusFrame;
 @end

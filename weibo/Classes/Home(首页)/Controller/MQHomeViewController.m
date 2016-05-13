@@ -6,15 +6,15 @@
 //  Copyright (c) 2014年 heima. All rights reserved.
 //
 
-#import "HMHomeViewController.h"
-#import "HMOneViewController.h"
+#import "MQHomeViewController.h"
+#import "MQOneViewController.h"
 #import "HMTitleButton.h"
 #import "HMPopMenu.h"
 #import "MQAccountTool.h"
 #import "MQAccount.h"
 #import "UIImageView+WebCache.h"
 #import "HMStatus.h"
-#import "HMStatusFrame.h"
+#import "MQStatusFrame.h"
 #import "HMUser.h"
 #import "MJExtension.h"
 #import "HMLoadMoreFooter.h"
@@ -24,7 +24,7 @@
 #import "JTNavigationController.h"
 #import "UIViewController+JTNavigationExtension.h"
 
-@interface HMHomeViewController () <HMPopMenuDelegate>
+@interface MQHomeViewController () <HMPopMenuDelegate>
 /**
  *  微博数组(存放着所有的微博frame数据)
  */
@@ -35,7 +35,7 @@
 @property (nonatomic, weak) HMTitleButton *titleButton;
 @end
 
-@implementation HMHomeViewController
+@implementation MQHomeViewController
 
 #pragma mark - 初始化
 - (NSMutableArray *)statusFrames
@@ -180,7 +180,7 @@
 {
     NSMutableArray *frames = [NSMutableArray array];
     for (HMStatus *status in statuses) {
-        HMStatusFrame *frame = [[HMStatusFrame alloc] init];
+        MQStatusFrame *frame = [[MQStatusFrame alloc] init];
         // 传递微博模型数据，计算所有子控件的frame
         frame.status = status;
         [frames addObject:frame];
@@ -195,7 +195,7 @@
 {
     // 1.封装请求参数
     HMHomeStatusesParam *param = [HMHomeStatusesParam param];
-    HMStatusFrame *firstStatusFrame =  [self.statusFrames firstObject];
+    MQStatusFrame *firstStatusFrame =  [self.statusFrames firstObject];
     HMStatus *firstStatus = firstStatusFrame.status;
     if (firstStatus) {
         param.since_id = @([firstStatus.idstr longLongValue]);
@@ -233,7 +233,7 @@
 {
     // 1.封装请求参数
     HMHomeStatusesParam *param = [HMHomeStatusesParam param];
-    HMStatusFrame *lastStatusFrame =  [self.statusFrames lastObject];
+    MQStatusFrame *lastStatusFrame =  [self.statusFrames lastObject];
     HMStatus *lastStatus = lastStatusFrame.status;
     if (lastStatus) {
         param.max_id = @([lastStatus.idstr longLongValue] - 1);
@@ -354,7 +354,7 @@
 {
     HMLog(@"friendSearch---");
     
-    HMOneViewController *one = [[HMOneViewController alloc] init];
+    MQOneViewController *one = [[MQOneViewController alloc] init];
     one.title = @"OneVc";
       JTNavigationController *firstNav = [[JTNavigationController alloc] initWithRootViewController:one];
      firstNav.fullScreenPopGestureEnabled = YES;
@@ -417,7 +417,7 @@
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    HMStatusFrame *frame = self.statusFrames[indexPath.row];
+    MQStatusFrame *frame = self.statusFrames[indexPath.row];
     return frame.cellHeight;
 }
 @end

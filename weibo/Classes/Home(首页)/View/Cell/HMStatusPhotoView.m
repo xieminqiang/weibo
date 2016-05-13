@@ -7,7 +7,7 @@
 //
 
 #import "HMStatusPhotoView.h"
-#import "HMPhoto.h"
+#import "MQPhoto.h"
 #import "UIImageView+WebCache.h"
 
 @interface HMStatusPhotoView()
@@ -34,7 +34,7 @@
     return self;
 }
 
-- (void)setPhoto:(HMPhoto *)photo
+- (void)setPhoto:(MQPhoto *)photo
 {
     _photo = photo;
     

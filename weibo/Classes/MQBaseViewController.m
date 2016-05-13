@@ -6,13 +6,13 @@
 //  Copyright (c) 2014年 heima. All rights reserved.
 //
 
-#import "HMBaseViewController.h"
+#import "MQBaseViewController.h"
 
-@interface HMBaseViewController ()
+@interface MQBaseViewController ()
 
 @end
 
-@implementation HMBaseViewController
+@implementation MQBaseViewController
 
 - (void)viewDidLoad
 {

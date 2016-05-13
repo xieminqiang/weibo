@@ -7,7 +7,7 @@
 //
 
 #import "HMStatusOriginalView.h"
-#import "HMStatusOriginalFrame.h"
+#import "MQStatusOriginalFrame.h"
 #import "HMStatus.h"
 #import "HMUser.h"
 #import "UIImageView+WebCache.h"
@@ -83,7 +83,7 @@
     return self;
 }
 
-- (void)setOriginalFrame:(HMStatusOriginalFrame *)originalFrame
+- (void)setOriginalFrame:(MQStatusOriginalFrame *)originalFrame
 {
     _originalFrame = originalFrame;
     

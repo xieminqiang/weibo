@@ -7,12 +7,12 @@
 //  一个frame包括一个cell内部所有子控件的fame数据和显示数据
 
 #import <Foundation/Foundation.h>
-@class HMStatus, HMStatusDetailFrame;
+@class HMStatus, MQStatusDetailFrame;
 
-@interface HMStatusFrame : NSObject
+@interface MQStatusFrame : NSObject
 /** 子控件的frame数据 */
 @property (nonatomic, assign) CGRect toolbarFrame;
-@property (nonatomic, strong) HMStatusDetailFrame *detailFrame;
+@property (nonatomic, strong) MQStatusDetailFrame *detailFrame;
 
 /** cell的高度 */
 @property (nonatomic, assign) CGFloat cellHeight;

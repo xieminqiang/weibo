@@ -7,6 +7,6 @@
 //
 
 
-@interface HMThreeViewController : UITableViewController
+@interface MQThreeViewController : UITableViewController
 
 @end

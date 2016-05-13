@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 @class MQEmotion;
 
-@interface HMEmotionTool : NSObject
+@interface MQEmotionTool : NSObject
 /**
  *  默认表情
  */

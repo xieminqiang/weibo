@@ -6,13 +6,13 @@
 //  Copyright (c) 2014年 heima. All rights reserved.
 //
 
-#import "HMTextView.h"
+#import "MQTextView.h"
 
-@interface HMTextView() <UITextViewDelegate>
+@interface MQTextView() <UITextViewDelegate>
 @property (nonatomic, weak) UILabel *placehoderLabel;
 @end
 
-@implementation HMTextView
+@implementation MQTextView
 
 - (id)initWithFrame:(CGRect)frame
 {

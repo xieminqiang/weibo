@@ -9,7 +9,7 @@
 #import "HMStatusDetailView.h"
 #import "HMStatusRetweetedView.h"
 #import "HMStatusOriginalView.h"
-#import "HMStatusDetailFrame.h"
+#import "MQStatusDetailFrame.h"
 
 @interface HMStatusDetailView()
 @property (nonatomic, weak) HMStatusOriginalView *originalView;
@@ -38,7 +38,7 @@
     return self;
 }
 
-- (void)setDetailFrame:(HMStatusDetailFrame *)detailFrame
+- (void)setDetailFrame:(MQStatusDetailFrame *)detailFrame
 {
     _detailFrame = detailFrame;
     

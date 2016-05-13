@@ -6,12 +6,12 @@
 //  Copyright (c) 2014年 heima. All rights reserved.
 //
 
-#import "HMStatusRetweetedFrame.h"
+#import "MQStatusRetweetedFrame.h"
 #import "HMStatus.h"
 #import "HMUser.h"
 #import "HMStatusPhotosView.h"
 
-@implementation HMStatusRetweetedFrame
+@implementation MQStatusRetweetedFrame
 
 - (void)setRetweetedStatus:(HMStatus *)retweetedStatus
 {

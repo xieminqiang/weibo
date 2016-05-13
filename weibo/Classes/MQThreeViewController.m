@@ -6,13 +6,13 @@
 //  Copyright (c) 2014年 heima. All rights reserved.
 //
 
-#import "HMThreeViewController.h"
+#import "MQThreeViewController.h"
 
-@interface HMThreeViewController ()
+@interface MQThreeViewController ()
 
 @end
 
-@implementation HMThreeViewController
+@implementation MQThreeViewController
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {

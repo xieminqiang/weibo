@@ -6,16 +6,16 @@
 //  Copyright (c) 2014年 heima. All rights reserved.
 //
 
-#import "HMOneViewController.h"
-#import "HMTwoViewController.h"
+#import "MQOneViewController.h"
+#import "MQTwoViewController.h"
 #import "UIViewController+JTNavigationExtension.h"
 
-@interface HMOneViewController ()
+@interface MQOneViewController ()
 - (IBAction)jumpTwo;
 
 @end
 
-@implementation HMOneViewController
+@implementation MQOneViewController
 
 
 - (void)viewDidLoad {
@@ -32,7 +32,7 @@
 //    self.jt_fullScreenPopGestureEnabled =YES; //关闭当前控制器的全屏返回手势
 }
 - (IBAction)jumpTwo {
-    HMTwoViewController *two = [[HMTwoViewController alloc] init];
+    MQTwoViewController *two = [[MQTwoViewController alloc] init];
     two.title = @"TwoVc";
     [self.navigationController pushViewController:two animated:YES];
 }

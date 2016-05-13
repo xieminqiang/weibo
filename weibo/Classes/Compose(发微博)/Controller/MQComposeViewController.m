@@ -7,7 +7,7 @@
 //
 
 #import "MQComposeViewController.h"
-#import "HMTextView.h"
+#import "MQTextView.h"
 #import "HMComposeToolbar.h"
 #import "HMComposePhotosView.h"
 #import "MQAccountTool.h"
@@ -18,7 +18,7 @@
 #import "HMEmotionKeyboard.h"
 
 @interface MQComposeViewController () <HMComposeToolbarDelegate, UITextViewDelegate, UINavigationControllerDelegate, UIImagePickerControllerDelegate>
-@property (nonatomic, weak) HMTextView *textView;
+@property (nonatomic, weak) MQTextView *textView;
 @property (nonatomic, weak) HMComposeToolbar *toolbar;
 @property (nonatomic, weak) HMComposePhotosView *photosView;
 @property (nonatomic, strong) HMEmotionKeyboard *kerboard;
@@ -93,7 +93,7 @@
 - (void)setupTextView
 {
     // 1.创建输入控件
-    HMTextView *textView = [[HMTextView alloc] init];
+    MQTextView *textView = [[MQTextView alloc] init];
     textView.alwaysBounceVertical = YES; // 垂直方向上拥有有弹簧效果
     textView.frame = self.view.bounds;
     textView.delegate = self;

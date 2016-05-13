@@ -10,7 +10,7 @@
 #import "HMEmotionListView.h"
 #import "HMEmotionToolbar.h"
 #import "MJExtension.h"
-#import "HMEmotionTool.h"
+#import "MQEmotionTool.h"
 
 @interface HMEmotionKeyboard() <HMEmotionToolbarDelegate>
 /** 表情列表 */
@@ -65,19 +65,19 @@
 {
     switch (emotionType) {
         case HMEmotionTypeDefault:// 默认
-            self.listView.emotions = [HMEmotionTool defaultEmotions];
+            self.listView.emotions = [MQEmotionTool defaultEmotions];
             break;
             
         case HMEmotionTypeEmoji: // Emoji
-            self.listView.emotions = [HMEmotionTool emojiEmotions];
+            self.listView.emotions = [MQEmotionTool emojiEmotions];
             break;
             
         case HMEmotionTypeLxh: // 浪小花
-            self.listView.emotions = [HMEmotionTool lxhEmotions];
+            self.listView.emotions = [MQEmotionTool lxhEmotions];
             break;
             
         case HMEmotionTypeRecent: // 最近
-            self.listView.emotions = [HMEmotionTool recentEmotions];
+            self.listView.emotions = [MQEmotionTool recentEmotions];
             break;
     }
 }

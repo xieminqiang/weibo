@@ -7,7 +7,7 @@
 //
 
 #import "HMStatusRetweetedView.h"
-#import "HMStatusRetweetedFrame.h"
+#import "MQStatusRetweetedFrame.h"
 #import "HMStatus.h"
 #import "HMUser.h"
 #import "HMStatusPhotosView.h"
@@ -52,7 +52,7 @@
     return self;
 }
 
-- (void)setRetweetedFrame:(HMStatusRetweetedFrame *)retweetedFrame
+- (void)setRetweetedFrame:(MQStatusRetweetedFrame *)retweetedFrame
 {
     _retweetedFrame = retweetedFrame;
     

@@ -9,7 +9,7 @@
 #import "HMStatusPhotosView.h"
 #import "HMStatusPhotoView.h"
 #import "UIImageView+WebCache.h"
-#import "HMPhoto.h"
+#import "MQPhoto.h"
 
 #import "MJPhotoBrowser.h"
 #import "MJPhoto.h"
@@ -56,7 +56,7 @@
     NSMutableArray *photos = [NSMutableArray array];
     int count = self.pic_urls.count;
     for (int i = 0; i<count; i++) {
-        HMPhoto *pic = self.pic_urls[i];
+        MQPhoto *pic = self.pic_urls[i];
         
         MJPhoto *photo = [[MJPhoto alloc] init];
         // 设置图片的路径

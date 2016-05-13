@@ -6,18 +6,18 @@
 //  Copyright (c) 2014年 heima. All rights reserved.
 //
 
-#import "HMTwoViewController.h"
-#import "HMThreeViewController.h"
+#import "MQTwoViewController.h"
+#import "MQThreeViewController.h"
 #import "JTNavigationController.h"
 #import "UIViewController+JTNavigationExtension.h"
 #import "JTViewController.h"
 
-@interface HMTwoViewController ()
+@interface MQTwoViewController ()
 - (IBAction)jumpThree;
 
 @end
 
-@implementation HMTwoViewController
+@implementation MQTwoViewController
 
 - (void)viewDidLoad
 {

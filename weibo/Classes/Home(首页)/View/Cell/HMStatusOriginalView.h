@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@class HMStatusOriginalFrame;
+@class MQStatusOriginalFrame;
 
 @interface HMStatusOriginalView : UIView
-@property (nonatomic, strong) HMStatusOriginalFrame *originalFrame;
+@property (nonatomic, strong) MQStatusOriginalFrame *originalFrame;
 @end

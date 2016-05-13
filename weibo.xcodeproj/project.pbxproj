@@ -15,7 +15,7 @@
 		A4BB3CA61CE570AB00C2C07A /* weiboUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3CA51CE570AB00C2C07A /* weiboUITests.m */; };
 		A4BB3DCD1CE5730300C2C07A /* MQComposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3CB71CE5730200C2C07A /* MQComposeViewController.m */; };
 		A4BB3DCE1CE5730300C2C07A /* MQEmotion.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3CBA1CE5730200C2C07A /* MQEmotion.m */; };
-		A4BB3DCF1CE5730300C2C07A /* HMEmotionTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3CBD1CE5730200C2C07A /* HMEmotionTool.m */; };
+		A4BB3DCF1CE5730300C2C07A /* MQEmotionTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3CBD1CE5730200C2C07A /* MQEmotionTool.m */; };
 		A4BB3DD01CE5730300C2C07A /* HMEmotionGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3CC11CE5730200C2C07A /* HMEmotionGridView.m */; };
 		A4BB3DD11CE5730300C2C07A /* HMEmotionKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3CC31CE5730200C2C07A /* HMEmotionKeyboard.m */; };
 		A4BB3DD21CE5730300C2C07A /* HMEmotionListView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3CC51CE5730200C2C07A /* HMEmotionListView.m */; };
@@ -25,22 +25,22 @@
 		A4BB3DD61CE5730300C2C07A /* HMEmotionView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3CCC1CE5730200C2C07A /* HMEmotionView.m */; };
 		A4BB3DD71CE5730300C2C07A /* HMComposePhotosView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3CCE1CE5730200C2C07A /* HMComposePhotosView.m */; };
 		A4BB3DD81CE5730300C2C07A /* HMComposeToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3CD01CE5730200C2C07A /* HMComposeToolbar.m */; };
-		A4BB3DD91CE5730300C2C07A /* HMTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3CD21CE5730200C2C07A /* HMTextView.m */; };
+		A4BB3DD91CE5730300C2C07A /* MQTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3CD21CE5730200C2C07A /* MQTextView.m */; };
 		A4BB3DDA1CE5730300C2C07A /* HMDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3CD61CE5730200C2C07A /* HMDiscoverViewController.m */; };
 		A4BB3DDB1CE5730300C2C07A /* HMDiscoverViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4BB3CD71CE5730200C2C07A /* HMDiscoverViewController.storyboard */; };
 		A4BB3DDC1CE5730300C2C07A /* HMSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3CDB1CE5730200C2C07A /* HMSearchBar.m */; };
-		A4BB3DDD1CE5730300C2C07A /* HMBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3CDD1CE5730200C2C07A /* HMBaseViewController.m */; };
-		A4BB3DDE1CE5730300C2C07A /* HMOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3CDF1CE5730200C2C07A /* HMOneViewController.m */; };
-		A4BB3DDF1CE5730300C2C07A /* HMOneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4BB3CE01CE5730200C2C07A /* HMOneViewController.xib */; };
-		A4BB3DE01CE5730300C2C07A /* HMThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3CE21CE5730200C2C07A /* HMThreeViewController.m */; };
-		A4BB3DE11CE5730300C2C07A /* HMTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3CE41CE5730200C2C07A /* HMTwoViewController.m */; };
-		A4BB3DE21CE5730300C2C07A /* HMTwoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4BB3CE51CE5730200C2C07A /* HMTwoViewController.xib */; };
-		A4BB3DE31CE5730300C2C07A /* HMHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3CE91CE5730200C2C07A /* HMHomeViewController.m */; };
-		A4BB3DE41CE5730300C2C07A /* HMStatusDetailFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3CED1CE5730200C2C07A /* HMStatusDetailFrame.m */; };
-		A4BB3DE51CE5730300C2C07A /* HMStatusFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3CEF1CE5730200C2C07A /* HMStatusFrame.m */; };
-		A4BB3DE61CE5730300C2C07A /* HMStatusOriginalFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3CF11CE5730200C2C07A /* HMStatusOriginalFrame.m */; };
-		A4BB3DE71CE5730300C2C07A /* HMStatusRetweetedFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3CF31CE5730200C2C07A /* HMStatusRetweetedFrame.m */; };
-		A4BB3DE81CE5730300C2C07A /* HMPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3CF51CE5730200C2C07A /* HMPhoto.m */; };
+		A4BB3DDD1CE5730300C2C07A /* MQBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3CDD1CE5730200C2C07A /* MQBaseViewController.m */; };
+		A4BB3DDE1CE5730300C2C07A /* MQOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3CDF1CE5730200C2C07A /* MQOneViewController.m */; };
+		A4BB3DDF1CE5730300C2C07A /* MQOneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4BB3CE01CE5730200C2C07A /* MQOneViewController.xib */; };
+		A4BB3DE01CE5730300C2C07A /* MQThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3CE21CE5730200C2C07A /* MQThreeViewController.m */; };
+		A4BB3DE11CE5730300C2C07A /* MQTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3CE41CE5730200C2C07A /* MQTwoViewController.m */; };
+		A4BB3DE21CE5730300C2C07A /* MQTwoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4BB3CE51CE5730200C2C07A /* MQTwoViewController.xib */; };
+		A4BB3DE31CE5730300C2C07A /* MQHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3CE91CE5730200C2C07A /* MQHomeViewController.m */; };
+		A4BB3DE41CE5730300C2C07A /* MQStatusDetailFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3CED1CE5730200C2C07A /* MQStatusDetailFrame.m */; };
+		A4BB3DE51CE5730300C2C07A /* MQStatusFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3CEF1CE5730200C2C07A /* MQStatusFrame.m */; };
+		A4BB3DE61CE5730300C2C07A /* MQStatusOriginalFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3CF11CE5730200C2C07A /* MQStatusOriginalFrame.m */; };
+		A4BB3DE71CE5730300C2C07A /* MQStatusRetweetedFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3CF31CE5730200C2C07A /* MQStatusRetweetedFrame.m */; };
+		A4BB3DE81CE5730300C2C07A /* MQPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3CF51CE5730200C2C07A /* MQPhoto.m */; };
 		A4BB3DE91CE5730300C2C07A /* HMStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3CF71CE5730200C2C07A /* HMStatus.m */; };
 		A4BB3DEA1CE5730300C2C07A /* HMUser.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3CF91CE5730200C2C07A /* HMUser.m */; };
 		A4BB3DEB1CE5730300C2C07A /* HMStatusCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB3CFD1CE5730200C2C07A /* HMStatusCell.m */; };
@@ -174,8 +174,8 @@
 		A4BB3CB71CE5730200C2C07A /* MQComposeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQComposeViewController.m; sourceTree = "<group>"; };
 		A4BB3CB91CE5730200C2C07A /* MQEmotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQEmotion.h; sourceTree = "<group>"; };
 		A4BB3CBA1CE5730200C2C07A /* MQEmotion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQEmotion.m; sourceTree = "<group>"; };
-		A4BB3CBC1CE5730200C2C07A /* HMEmotionTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMEmotionTool.h; sourceTree = "<group>"; };
-		A4BB3CBD1CE5730200C2C07A /* HMEmotionTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMEmotionTool.m; sourceTree = "<group>"; };
+		A4BB3CBC1CE5730200C2C07A /* MQEmotionTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQEmotionTool.h; sourceTree = "<group>"; };
+		A4BB3CBD1CE5730200C2C07A /* MQEmotionTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQEmotionTool.m; sourceTree = "<group>"; };
 		A4BB3CC01CE5730200C2C07A /* HMEmotionGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMEmotionGridView.h; sourceTree = "<group>"; };
 		A4BB3CC11CE5730200C2C07A /* HMEmotionGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMEmotionGridView.m; sourceTree = "<group>"; };
 		A4BB3CC21CE5730200C2C07A /* HMEmotionKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMEmotionKeyboard.h; sourceTree = "<group>"; };
@@ -193,35 +193,35 @@
 		A4BB3CCE1CE5730200C2C07A /* HMComposePhotosView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMComposePhotosView.m; sourceTree = "<group>"; };
 		A4BB3CCF1CE5730200C2C07A /* HMComposeToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMComposeToolbar.h; sourceTree = "<group>"; };
 		A4BB3CD01CE5730200C2C07A /* HMComposeToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMComposeToolbar.m; sourceTree = "<group>"; };
-		A4BB3CD11CE5730200C2C07A /* HMTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMTextView.h; sourceTree = "<group>"; };
-		A4BB3CD21CE5730200C2C07A /* HMTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMTextView.m; sourceTree = "<group>"; };
+		A4BB3CD11CE5730200C2C07A /* MQTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQTextView.h; sourceTree = "<group>"; };
+		A4BB3CD21CE5730200C2C07A /* MQTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQTextView.m; sourceTree = "<group>"; };
 		A4BB3CD51CE5730200C2C07A /* HMDiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMDiscoverViewController.h; sourceTree = "<group>"; };
 		A4BB3CD61CE5730200C2C07A /* HMDiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMDiscoverViewController.m; sourceTree = "<group>"; };
 		A4BB3CD71CE5730200C2C07A /* HMDiscoverViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HMDiscoverViewController.storyboard; sourceTree = "<group>"; };
 		A4BB3CDA1CE5730200C2C07A /* HMSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMSearchBar.h; sourceTree = "<group>"; };
 		A4BB3CDB1CE5730200C2C07A /* HMSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMSearchBar.m; sourceTree = "<group>"; };
-		A4BB3CDC1CE5730200C2C07A /* HMBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMBaseViewController.h; sourceTree = "<group>"; };
-		A4BB3CDD1CE5730200C2C07A /* HMBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMBaseViewController.m; sourceTree = "<group>"; };
-		A4BB3CDE1CE5730200C2C07A /* HMOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMOneViewController.h; sourceTree = "<group>"; };
-		A4BB3CDF1CE5730200C2C07A /* HMOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMOneViewController.m; sourceTree = "<group>"; };
-		A4BB3CE01CE5730200C2C07A /* HMOneViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HMOneViewController.xib; sourceTree = "<group>"; };
-		A4BB3CE11CE5730200C2C07A /* HMThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMThreeViewController.h; sourceTree = "<group>"; };
-		A4BB3CE21CE5730200C2C07A /* HMThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMThreeViewController.m; sourceTree = "<group>"; };
-		A4BB3CE31CE5730200C2C07A /* HMTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMTwoViewController.h; sourceTree = "<group>"; };
-		A4BB3CE41CE5730200C2C07A /* HMTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMTwoViewController.m; sourceTree = "<group>"; };
-		A4BB3CE51CE5730200C2C07A /* HMTwoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HMTwoViewController.xib; sourceTree = "<group>"; };
-		A4BB3CE81CE5730200C2C07A /* HMHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMHomeViewController.h; sourceTree = "<group>"; };
-		A4BB3CE91CE5730200C2C07A /* HMHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMHomeViewController.m; sourceTree = "<group>"; };
-		A4BB3CEC1CE5730200C2C07A /* HMStatusDetailFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMStatusDetailFrame.h; sourceTree = "<group>"; };
-		A4BB3CED1CE5730200C2C07A /* HMStatusDetailFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMStatusDetailFrame.m; sourceTree = "<group>"; };
-		A4BB3CEE1CE5730200C2C07A /* HMStatusFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMStatusFrame.h; sourceTree = "<group>"; };
-		A4BB3CEF1CE5730200C2C07A /* HMStatusFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMStatusFrame.m; sourceTree = "<group>"; };
-		A4BB3CF01CE5730200C2C07A /* HMStatusOriginalFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMStatusOriginalFrame.h; sourceTree = "<group>"; };
-		A4BB3CF11CE5730200C2C07A /* HMStatusOriginalFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMStatusOriginalFrame.m; sourceTree = "<group>"; };
-		A4BB3CF21CE5730200C2C07A /* HMStatusRetweetedFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMStatusRetweetedFrame.h; sourceTree = "<group>"; };
-		A4BB3CF31CE5730200C2C07A /* HMStatusRetweetedFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMStatusRetweetedFrame.m; sourceTree = "<group>"; };
-		A4BB3CF41CE5730200C2C07A /* HMPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMPhoto.h; sourceTree = "<group>"; };
-		A4BB3CF51CE5730200C2C07A /* HMPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMPhoto.m; sourceTree = "<group>"; };
+		A4BB3CDC1CE5730200C2C07A /* MQBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQBaseViewController.h; sourceTree = "<group>"; };
+		A4BB3CDD1CE5730200C2C07A /* MQBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQBaseViewController.m; sourceTree = "<group>"; };
+		A4BB3CDE1CE5730200C2C07A /* MQOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQOneViewController.h; sourceTree = "<group>"; };
+		A4BB3CDF1CE5730200C2C07A /* MQOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQOneViewController.m; sourceTree = "<group>"; };
+		A4BB3CE01CE5730200C2C07A /* MQOneViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MQOneViewController.xib; sourceTree = "<group>"; };
+		A4BB3CE11CE5730200C2C07A /* MQThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQThreeViewController.h; sourceTree = "<group>"; };
+		A4BB3CE21CE5730200C2C07A /* MQThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQThreeViewController.m; sourceTree = "<group>"; };
+		A4BB3CE31CE5730200C2C07A /* MQTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQTwoViewController.h; sourceTree = "<group>"; };
+		A4BB3CE41CE5730200C2C07A /* MQTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQTwoViewController.m; sourceTree = "<group>"; };
+		A4BB3CE51CE5730200C2C07A /* MQTwoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MQTwoViewController.xib; sourceTree = "<group>"; };
+		A4BB3CE81CE5730200C2C07A /* MQHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQHomeViewController.h; sourceTree = "<group>"; };
+		A4BB3CE91CE5730200C2C07A /* MQHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQHomeViewController.m; sourceTree = "<group>"; };
+		A4BB3CEC1CE5730200C2C07A /* MQStatusDetailFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQStatusDetailFrame.h; sourceTree = "<group>"; };
+		A4BB3CED1CE5730200C2C07A /* MQStatusDetailFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQStatusDetailFrame.m; sourceTree = "<group>"; };
+		A4BB3CEE1CE5730200C2C07A /* MQStatusFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQStatusFrame.h; sourceTree = "<group>"; };
+		A4BB3CEF1CE5730200C2C07A /* MQStatusFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQStatusFrame.m; sourceTree = "<group>"; };
+		A4BB3CF01CE5730200C2C07A /* MQStatusOriginalFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQStatusOriginalFrame.h; sourceTree = "<group>"; };
+		A4BB3CF11CE5730200C2C07A /* MQStatusOriginalFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQStatusOriginalFrame.m; sourceTree = "<group>"; };
+		A4BB3CF21CE5730200C2C07A /* MQStatusRetweetedFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQStatusRetweetedFrame.h; sourceTree = "<group>"; };
+		A4BB3CF31CE5730200C2C07A /* MQStatusRetweetedFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQStatusRetweetedFrame.m; sourceTree = "<group>"; };
+		A4BB3CF41CE5730200C2C07A /* MQPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQPhoto.h; sourceTree = "<group>"; };
+		A4BB3CF51CE5730200C2C07A /* MQPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQPhoto.m; sourceTree = "<group>"; };
 		A4BB3CF61CE5730200C2C07A /* HMStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMStatus.h; sourceTree = "<group>"; };
 		A4BB3CF71CE5730200C2C07A /* HMStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMStatus.m; sourceTree = "<group>"; };
 		A4BB3CF81CE5730200C2C07A /* HMUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMUser.h; sourceTree = "<group>"; };
@@ -515,16 +515,16 @@
 				A4BB3E471CE5731E00C2C07A /* backImage@3x.png */,
 				A4BB3CB41CE5730200C2C07A /* Compose(发微博) */,
 				A4BB3CD31CE5730200C2C07A /* Discover(发现) */,
-				A4BB3CDC1CE5730200C2C07A /* HMBaseViewController.h */,
-				A4BB3CDD1CE5730200C2C07A /* HMBaseViewController.m */,
-				A4BB3CDE1CE5730200C2C07A /* HMOneViewController.h */,
-				A4BB3CDF1CE5730200C2C07A /* HMOneViewController.m */,
-				A4BB3CE01CE5730200C2C07A /* HMOneViewController.xib */,
-				A4BB3CE11CE5730200C2C07A /* HMThreeViewController.h */,
-				A4BB3CE21CE5730200C2C07A /* HMThreeViewController.m */,
-				A4BB3CE31CE5730200C2C07A /* HMTwoViewController.h */,
-				A4BB3CE41CE5730200C2C07A /* HMTwoViewController.m */,
-				A4BB3CE51CE5730200C2C07A /* HMTwoViewController.xib */,
+				A4BB3CDC1CE5730200C2C07A /* MQBaseViewController.h */,
+				A4BB3CDD1CE5730200C2C07A /* MQBaseViewController.m */,
+				A4BB3CDE1CE5730200C2C07A /* MQOneViewController.h */,
+				A4BB3CDF1CE5730200C2C07A /* MQOneViewController.m */,
+				A4BB3CE01CE5730200C2C07A /* MQOneViewController.xib */,
+				A4BB3CE11CE5730200C2C07A /* MQThreeViewController.h */,
+				A4BB3CE21CE5730200C2C07A /* MQThreeViewController.m */,
+				A4BB3CE31CE5730200C2C07A /* MQTwoViewController.h */,
+				A4BB3CE41CE5730200C2C07A /* MQTwoViewController.m */,
+				A4BB3CE51CE5730200C2C07A /* MQTwoViewController.xib */,
 				A4BB3CE61CE5730200C2C07A /* Home(首页) */,
 				A4BB3D141CE5730200C2C07A /* Main(主要) */,
 				A4BB3DB71CE5730300C2C07A /* Message(消息) */,
@@ -569,8 +569,8 @@
 		A4BB3CBB1CE5730200C2C07A /* Tool */ = {
 			isa = PBXGroup;
 			children = (
-				A4BB3CBC1CE5730200C2C07A /* HMEmotionTool.h */,
-				A4BB3CBD1CE5730200C2C07A /* HMEmotionTool.m */,
+				A4BB3CBC1CE5730200C2C07A /* MQEmotionTool.h */,
+				A4BB3CBD1CE5730200C2C07A /* MQEmotionTool.m */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -583,8 +583,8 @@
 				A4BB3CCE1CE5730200C2C07A /* HMComposePhotosView.m */,
 				A4BB3CCF1CE5730200C2C07A /* HMComposeToolbar.h */,
 				A4BB3CD01CE5730200C2C07A /* HMComposeToolbar.m */,
-				A4BB3CD11CE5730200C2C07A /* HMTextView.h */,
-				A4BB3CD21CE5730200C2C07A /* HMTextView.m */,
+				A4BB3CD11CE5730200C2C07A /* MQTextView.h */,
+				A4BB3CD21CE5730200C2C07A /* MQTextView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -658,8 +658,8 @@
 		A4BB3CE71CE5730200C2C07A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				A4BB3CE81CE5730200C2C07A /* HMHomeViewController.h */,
-				A4BB3CE91CE5730200C2C07A /* HMHomeViewController.m */,
+				A4BB3CE81CE5730200C2C07A /* MQHomeViewController.h */,
+				A4BB3CE91CE5730200C2C07A /* MQHomeViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -668,8 +668,8 @@
 			isa = PBXGroup;
 			children = (
 				A4BB3CEB1CE5730200C2C07A /* Cell */,
-				A4BB3CF41CE5730200C2C07A /* HMPhoto.h */,
-				A4BB3CF51CE5730200C2C07A /* HMPhoto.m */,
+				A4BB3CF41CE5730200C2C07A /* MQPhoto.h */,
+				A4BB3CF51CE5730200C2C07A /* MQPhoto.m */,
 				A4BB3CF61CE5730200C2C07A /* HMStatus.h */,
 				A4BB3CF71CE5730200C2C07A /* HMStatus.m */,
 				A4BB3CF81CE5730200C2C07A /* HMUser.h */,
@@ -681,14 +681,14 @@
 		A4BB3CEB1CE5730200C2C07A /* Cell */ = {
 			isa = PBXGroup;
 			children = (
-				A4BB3CEC1CE5730200C2C07A /* HMStatusDetailFrame.h */,
-				A4BB3CED1CE5730200C2C07A /* HMStatusDetailFrame.m */,
-				A4BB3CEE1CE5730200C2C07A /* HMStatusFrame.h */,
-				A4BB3CEF1CE5730200C2C07A /* HMStatusFrame.m */,
-				A4BB3CF01CE5730200C2C07A /* HMStatusOriginalFrame.h */,
-				A4BB3CF11CE5730200C2C07A /* HMStatusOriginalFrame.m */,
-				A4BB3CF21CE5730200C2C07A /* HMStatusRetweetedFrame.h */,
-				A4BB3CF31CE5730200C2C07A /* HMStatusRetweetedFrame.m */,
+				A4BB3CEC1CE5730200C2C07A /* MQStatusDetailFrame.h */,
+				A4BB3CED1CE5730200C2C07A /* MQStatusDetailFrame.m */,
+				A4BB3CEE1CE5730200C2C07A /* MQStatusFrame.h */,
+				A4BB3CEF1CE5730200C2C07A /* MQStatusFrame.m */,
+				A4BB3CF01CE5730200C2C07A /* MQStatusOriginalFrame.h */,
+				A4BB3CF11CE5730200C2C07A /* MQStatusOriginalFrame.m */,
+				A4BB3CF21CE5730200C2C07A /* MQStatusRetweetedFrame.h */,
+				A4BB3CF31CE5730200C2C07A /* MQStatusRetweetedFrame.m */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -1218,10 +1218,10 @@
 				A4BB3E161CE5730300C2C07A /* MJPhotoBrowser.bundle in Resources */,
 				A4BB3DDB1CE5730300C2C07A /* HMDiscoverViewController.storyboard in Resources */,
 				A4BB3DF31CE5730300C2C07A /* HMLoadMoreFooter.xib in Resources */,
-				A4BB3DDF1CE5730300C2C07A /* HMOneViewController.xib in Resources */,
+				A4BB3DDF1CE5730300C2C07A /* MQOneViewController.xib in Resources */,
 				A4BB3E0A1CE5730300C2C07A /* MBProgressHUD.bundle in Resources */,
 				A4BB3DD41CE5730300C2C07A /* HMEmotionPopView.xib in Resources */,
-				A4BB3DE21CE5730300C2C07A /* HMTwoViewController.xib in Resources */,
+				A4BB3DE21CE5730300C2C07A /* MQTwoViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1256,7 +1256,7 @@
 				A4BB3E321CE5730300C2C07A /* HMSendStatusParam.m in Sources */,
 				A4BB3DD61CE5730300C2C07A /* HMEmotionView.m in Sources */,
 				A4BB3DE91CE5730300C2C07A /* HMStatus.m in Sources */,
-				A4BB3DDE1CE5730300C2C07A /* HMOneViewController.m in Sources */,
+				A4BB3DDE1CE5730300C2C07A /* MQOneViewController.m in Sources */,
 				A4BB3E051CE5730300C2C07A /* AFURLConnectionOperation.m in Sources */,
 				A4BB3E3F1CE5730300C2C07A /* MQHttpTool.m in Sources */,
 				A4BB3E141CE5730300C2C07A /* NSObject+MJMember.m in Sources */,
@@ -1266,10 +1266,10 @@
 				A4BB3E211CE5730300C2C07A /* SDWebImageDecoder.m in Sources */,
 				A4BB3E2E1CE5730300C2C07A /* MQAccount.m in Sources */,
 				A4BB3E061CE5730300C2C07A /* AFURLRequestSerialization.m in Sources */,
-				A4BB3DDD1CE5730300C2C07A /* HMBaseViewController.m in Sources */,
+				A4BB3DDD1CE5730300C2C07A /* MQBaseViewController.m in Sources */,
 				A4BB3E361CE5730300C2C07A /* HMUserInfoParam.m in Sources */,
 				A4BB3DF91CE5730300C2C07A /* NSDate+MJ.m in Sources */,
-				A4BB3DE61CE5730300C2C07A /* HMStatusOriginalFrame.m in Sources */,
+				A4BB3DE61CE5730300C2C07A /* MQStatusOriginalFrame.m in Sources */,
 				A4BB3DF11CE5730300C2C07A /* HMStatusToolbar.m in Sources */,
 				A4BB3DD81CE5730300C2C07A /* HMComposeToolbar.m in Sources */,
 				A4BB3E011CE5730300C2C07A /* AFHTTPRequestOperationManager.m in Sources */,
@@ -1279,15 +1279,15 @@
 				A4BB3E031CE5730300C2C07A /* AFNetworkReachabilityManager.m in Sources */,
 				A4BB3E3E1CE5730300C2C07A /* MQControllerTool.m in Sources */,
 				A4BB3E371CE5730300C2C07A /* HMUserInfoResult.m in Sources */,
-				A4BB3DE51CE5730300C2C07A /* HMStatusFrame.m in Sources */,
+				A4BB3DE51CE5730300C2C07A /* MQStatusFrame.m in Sources */,
 				A4BB3E3C1CE5730300C2C07A /* MQAccountTool.m in Sources */,
 				A4BB3E021CE5730300C2C07A /* AFHTTPSessionManager.m in Sources */,
 				A4BB3E1B1CE5730300C2C07A /* MJPhotoView.m in Sources */,
 				A4BB3DFA1CE5730300C2C07A /* NSString+Emoji.m in Sources */,
-				A4BB3DE11CE5730300C2C07A /* HMTwoViewController.m in Sources */,
+				A4BB3DE11CE5730300C2C07A /* MQTwoViewController.m in Sources */,
 				A4BB3DFC1CE5730300C2C07A /* UIImage+Extension.m in Sources */,
 				A4BB3C851CE570AA00C2C07A /* AppDelegate.m in Sources */,
-				A4BB3DE31CE5730300C2C07A /* HMHomeViewController.m in Sources */,
+				A4BB3DE31CE5730300C2C07A /* MQHomeViewController.m in Sources */,
 				A4BB3DEA1CE5730300C2C07A /* HMUser.m in Sources */,
 				A4BB3E2B1CE5730300C2C07A /* UIImageView+WebCache.m in Sources */,
 				A4BB3E2A1CE5730300C2C07A /* UIImageView+HighlightedWebCache.m in Sources */,
@@ -1301,12 +1301,12 @@
 				A4BB3E041CE5730300C2C07A /* AFSecurityPolicy.m in Sources */,
 				A4BB3DD31CE5730300C2C07A /* HMEmotionPopView.m in Sources */,
 				A4BB3DD51CE5730300C2C07A /* HMEmotionToolbar.m in Sources */,
-				A4BB3DE71CE5730300C2C07A /* HMStatusRetweetedFrame.m in Sources */,
+				A4BB3DE71CE5730300C2C07A /* MQStatusRetweetedFrame.m in Sources */,
 				A4BB3E151CE5730300C2C07A /* MJPhoto.m in Sources */,
 				A4BB3E341CE5730300C2C07A /* HMUnreadCountParam.m in Sources */,
 				A4BB3E401CE5730300C2C07A /* HMTabBar.m in Sources */,
 				A4BB3E291CE5730300C2C07A /* UIImage+WebP.m in Sources */,
-				A4BB3DE81CE5730300C2C07A /* HMPhoto.m in Sources */,
+				A4BB3DE81CE5730300C2C07A /* MQPhoto.m in Sources */,
 				A4BB3E521CE5732C00C2C07A /* UIViewController+JTNavigationExtension.m in Sources */,
 				A4BB3DF81CE5730300C2C07A /* Foundation+Log.m in Sources */,
 				A4BB3E001CE5730300C2C07A /* AFHTTPRequestOperation.m in Sources */,
@@ -1330,7 +1330,7 @@
 				A4BB3E251CE5730300C2C07A /* SDWebImagePrefetcher.m in Sources */,
 				A4BB3E201CE5730300C2C07A /* SDWebImageCompat.m in Sources */,
 				A4BB3DF61CE5730300C2C07A /* JTViewController.m in Sources */,
-				A4BB3DCF1CE5730300C2C07A /* HMEmotionTool.m in Sources */,
+				A4BB3DCF1CE5730300C2C07A /* MQEmotionTool.m in Sources */,
 				A4BB3E2C1CE5730300C2C07A /* UIView+WebCacheOperation.m in Sources */,
 				A4BB3DF51CE5730300C2C07A /* HMTitleButton.m in Sources */,
 				A4BB3E281CE5730300C2C07A /* UIImage+MultiFormat.m in Sources */,
@@ -1345,7 +1345,7 @@
 				A4BB3E191CE5730300C2C07A /* MJPhotoProgressView.m in Sources */,
 				A4BB3C821CE570AA00C2C07A /* main.m in Sources */,
 				A4BB3DEB1CE5730300C2C07A /* HMStatusCell.m in Sources */,
-				A4BB3DE41CE5730300C2C07A /* HMStatusDetailFrame.m in Sources */,
+				A4BB3DE41CE5730300C2C07A /* MQStatusDetailFrame.m in Sources */,
 				A4BB3E081CE5730300C2C07A /* AFURLSessionManager.m in Sources */,
 				A4BB3DED1CE5730300C2C07A /* HMStatusOriginalView.m in Sources */,
 				A4BB3E2F1CE5730300C2C07A /* HMBaseParam.m in Sources */,
@@ -1355,11 +1355,11 @@
 				A4BB3DFD1CE5730300C2C07A /* UIView+Extension.m in Sources */,
 				A4BB3DD71CE5730300C2C07A /* HMComposePhotosView.m in Sources */,
 				A4BB3E0B1CE5730300C2C07A /* MBProgressHUD.m in Sources */,
-				A4BB3DE01CE5730300C2C07A /* HMThreeViewController.m in Sources */,
+				A4BB3DE01CE5730300C2C07A /* MQThreeViewController.m in Sources */,
 				A4BB3E0D1CE5730300C2C07A /* MJIvar.m in Sources */,
 				A4BB3E071CE5730300C2C07A /* AFURLResponseSerialization.m in Sources */,
 				A4BB3E411CE5730300C2C07A /* HMMessageViewController.m in Sources */,
-				A4BB3DD91CE5730300C2C07A /* HMTextView.m in Sources */,
+				A4BB3DD91CE5730300C2C07A /* MQTextView.m in Sources */,
 				A4BB3E241CE5730300C2C07A /* SDWebImageManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

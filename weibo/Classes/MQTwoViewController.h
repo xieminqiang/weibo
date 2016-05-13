@@ -1,5 +1,5 @@
 //
-//  HMHomeViewController.h
+//  HMTwoViewController.h
 //  黑马微博
 //
 //  Created by apple on 14-7-3.
@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HMHomeViewController : UITableViewController
-/**
- *  刷新
- */
-- (void)refresh:(BOOL)fromSelf;
+@interface MQTwoViewController : UIViewController
+
 @end

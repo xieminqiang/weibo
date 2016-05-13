@@ -9,7 +9,7 @@
 #import "HMStatusCell.h"
 #import "HMStatusDetailView.h"
 #import "HMStatusToolbar.h"
-#import "HMStatusFrame.h"
+#import "MQStatusFrame.h"
 
 @interface HMStatusCell()
 @property (nonatomic, weak) HMStatusDetailView *detailView;
@@ -48,7 +48,7 @@
     return self;
 }
 
-- (void)setStatusFrame:(HMStatusFrame *)statusFrame
+- (void)setStatusFrame:(MQStatusFrame *)statusFrame
 {
     _statusFrame = statusFrame;
     

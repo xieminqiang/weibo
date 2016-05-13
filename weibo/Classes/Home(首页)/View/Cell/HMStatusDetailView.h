@@ -7,8 +7,8 @@
 //  微博的具体内容 = 原创微博 + 转发微博
 
 #import <UIKit/UIKit.h>
-@class HMStatusDetailFrame;
+@class MQStatusDetailFrame;
 
 @interface HMStatusDetailView : UIImageView
-@property (nonatomic, strong) HMStatusDetailFrame *detailFrame;
+@property (nonatomic, strong) MQStatusDetailFrame *detailFrame;
 @end

@@ -6,11 +6,11 @@
 //  Copyright (c) 2014年 heima. All rights reserved.
 //
 
-#import "HMStatusFrame.h"
+#import "MQStatusFrame.h"
 #import "HMStatus.h"
-#import "HMStatusDetailFrame.h"
+#import "MQStatusDetailFrame.h"
 
-@implementation HMStatusFrame
+@implementation MQStatusFrame
 
 - (void)setStatus:(HMStatus *)status
 {
@@ -31,7 +31,7 @@
  */
 - (void)setupDetailFrame
 {
-    HMStatusDetailFrame *detailFrame = [[HMStatusDetailFrame alloc] init];
+    MQStatusDetailFrame *detailFrame = [[MQStatusDetailFrame alloc] init];
     detailFrame.status = self.status;
     self.detailFrame = detailFrame;
 }

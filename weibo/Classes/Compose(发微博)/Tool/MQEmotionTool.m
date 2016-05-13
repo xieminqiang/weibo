@@ -7,11 +7,11 @@
 //
 #define HMRecentFilepath [[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject] stringByAppendingPathComponent:@"recent_emotions.data"]
 
-#import "HMEmotionTool.h"
+#import "MQEmotionTool.h"
 #import "MQEmotion.h"
 #import "MJExtension.h"
 
-@implementation HMEmotionTool
+@implementation MQEmotionTool
 
 /** 默认表情 */
 static NSArray *_defaultEmotions;

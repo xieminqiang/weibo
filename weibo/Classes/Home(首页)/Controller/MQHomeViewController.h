@@ -1,5 +1,5 @@
 //
-//  HMOneViewController.h
+//  HMHomeViewController.h
 //  黑马微博
 //
 //  Created by apple on 14-7-3.
@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HMOneViewController : UIViewController
-
+@interface MQHomeViewController : UITableViewController
+/**
+ *  刷新
+ */
+- (void)refresh:(BOOL)fromSelf;
 @end

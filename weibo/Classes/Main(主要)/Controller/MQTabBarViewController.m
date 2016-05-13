@@ -7,7 +7,7 @@
 //
 
 #import "MQTabBarViewController.h"
-#import "HMHomeViewController.h"
+#import "MQHomeViewController.h"
 #import "HMMessageViewController.h"
 #import "HMDiscoverViewController.h"
 #import "HMProfileViewController.h"
@@ -18,11 +18,11 @@
 #import "MQAccount.h"
 #import "MQAccountTool.h"
 #import "JTNavigationController.h"
-#import "HMOneViewController.h"
+#import "MQOneViewController.h"
 #import "JTViewController.h"
 
 @interface MQTabBarViewController () <HMTabBarDelegate, UITabBarControllerDelegate>
-@property (nonatomic, weak) HMHomeViewController *home;
+@property (nonatomic, weak) MQHomeViewController *home;
 @property (nonatomic, weak) HMMessageViewController *message;
 @property (nonatomic, weak) HMProfileViewController *profile;
 @property (nonatomic, weak) UIViewController *lastSelectedViewContoller;
@@ -49,7 +49,7 @@
 - (void)tabBarController:(UITabBarController *)tabBarController didSelectViewController:(UINavigationController *)viewController
 {
     UIViewController *vc = [viewController.viewControllers firstObject];
-    if ([vc isKindOfClass:[HMHomeViewController class]]) {
+    if ([vc isKindOfClass:[MQHomeViewController class]]) {
         if (self.lastSelectedViewContoller == vc) {
             [self.home refresh:YES];
         } else {
@@ -114,7 +114,7 @@
  */
 - (void)addAllChildVcs
 {
-    HMHomeViewController *home = [[HMHomeViewController alloc] init];
+    MQHomeViewController *home = [[MQHomeViewController alloc] init];
     [self addOneChlildVc:home title:@"首页" imageName:@"tabbar_home" selectedImageName:@"tabbar_home_selected"];
 
     self.home = home;

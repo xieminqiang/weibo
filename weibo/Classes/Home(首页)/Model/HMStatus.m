@@ -8,14 +8,14 @@
 
 #import "HMStatus.h"
 #import "MJExtension.h"
-#import "HMPhoto.h"
+#import "MQPhoto.h"
 #import "NSDate+MJ.h"
 
 @implementation HMStatus
 
 - (NSDictionary *)objectClassInArray
 {
-    return @{@"pic_urls" : [HMPhoto class]};
+    return @{@"pic_urls" : [MQPhoto class]};
 }
 
 - (NSString *)created_at

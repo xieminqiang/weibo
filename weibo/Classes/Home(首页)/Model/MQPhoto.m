@@ -6,9 +6,9 @@
 //  Copyright (c) 2014年 heima. All rights reserved.
 //
 
-#import "HMPhoto.h"
+#import "MQPhoto.h"
 
-@implementation HMPhoto
+@implementation MQPhoto
 - (void)setThumbnail_pic:(NSString *)thumbnail_pic
 {
     _thumbnail_pic = [thumbnail_pic copy];

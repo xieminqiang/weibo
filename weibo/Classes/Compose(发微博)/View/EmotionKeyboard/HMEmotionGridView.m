@@ -10,7 +10,7 @@
 #import "MQEmotion.h"
 #import "HMEmotionView.h"
 #import "HMEmotionPopView.h"
-#import "HMEmotionTool.h"
+#import "MQEmotionTool.h"
 
 @interface HMEmotionGridView()
 @property (nonatomic, weak) UIButton *deleteButton;
@@ -148,7 +148,7 @@
     if (emotion == nil) return;
 #warning 注意：先添加使用的表情，再发通知
     // 保存使用记录
-    [HMEmotionTool addRecentEmotion:emotion];
+    [MQEmotionTool addRecentEmotion:emotion];
     
     // 发出一个选中表情的通知
     [[NSNotificationCenter defaultCenter] postNotificationName:HMEmotionDidSelectedNotification object:nil userInfo:@{HMSelectedEmotion : emotion}];

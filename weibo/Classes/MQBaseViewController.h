@@ -1,5 +1,5 @@
 //
-//  HMTwoViewController.h
+//  HMBaseViewController.h
 //  黑马微博
 //
 //  Created by apple on 14-7-3.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HMTwoViewController : UIViewController
+@interface MQBaseViewController : UIViewController
 
 @end

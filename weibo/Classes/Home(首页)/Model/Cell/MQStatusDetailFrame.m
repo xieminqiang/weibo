@@ -6,26 +6,26 @@
 //  Copyright (c) 2014年 heima. All rights reserved.
 //
 
-#import "HMStatusDetailFrame.h"
+#import "MQStatusDetailFrame.h"
 #import "HMStatus.h"
-#import "HMStatusOriginalFrame.h"
-#import "HMStatusRetweetedFrame.h"
+#import "MQStatusOriginalFrame.h"
+#import "MQStatusRetweetedFrame.h"
 
-@implementation HMStatusDetailFrame
+@implementation MQStatusDetailFrame
 
 - (void)setStatus:(HMStatus *)status
 {
     _status = status;
     
     // 1.计算原创微博的frame
-    HMStatusOriginalFrame *originalFrame = [[HMStatusOriginalFrame alloc] init];
+    MQStatusOriginalFrame *originalFrame = [[MQStatusOriginalFrame alloc] init];
     originalFrame.status = status;
     self.originalFrame = originalFrame;
     
     // 2.计算转发微博的frame
     CGFloat h = 0;
     if (status.retweeted_status) {
-        HMStatusRetweetedFrame *retweetedFrame = [[HMStatusRetweetedFrame alloc] init];
+        MQStatusRetweetedFrame *retweetedFrame = [[MQStatusRetweetedFrame alloc] init];
         retweetedFrame.retweetedStatus = status.retweeted_status;
         
         // 计算转发微博frame的y值
